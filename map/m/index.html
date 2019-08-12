@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#da322a">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(54323694, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/54323694" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Схема МЦД</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/map.js"></script>
+</head>
+<body class="_map">
+
+    <div class="map">
+        <div class="map__library">
+            <img src="/slice.svg" class="map__library-img">
+        </div>
+
+        <div class="map__viewport">
+            <div class="map__viewport-in">
+                <div class="map__layer" id="map-background"></div>
+                <div class="map__layer" id="map-route">
+                    <svg viewBox="0 0 1600 2000"></svg>
+                </div>
+                <div class="map__layer" id="map-markers">
+                    <svg viewBox="0 0 1600 2000">
+                        <use xlink:href="slice.svg#line0_19"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="map__zoom">
+            <div class="zoom">
+                <div class="zoom__in"></div>
+                <div class="zoom__out"></div>
+            </div>
+        </div>
+        <aside class="map__aside">
+            <div class="map__aside-in">
+                <div class="map__aside-fromto">
+                    <div class="fromto">
+                        <div class="fromto__select" id="map-from">
+                            <header class="fromto__select-field">
+                                <div class="fromto__select-field-in">Отправление</div>
+                            </header>
+                            <input type="hidden" class="fromto__select-input">
+                            <div class="fromto__select-list">
+                                <div class="fromto__select-list-in"></div>
+                            </div>
+                        </div>
+                        <div class="fromto__select" id="map-to">
+                            <header class="fromto__select-field">
+                                <div class="fromto__select-field-in">Прибытие</div>
+                            </header>
+                            <input type="hidden" class="fromto__select-input">
+                            <div class="fromto__select-list">
+                                <div class="fromto__select-list-in"></div>
+                            </div>
+                        </div>
+                        <div class="fromto__clear">Очистить маршрут</div>
+                    </div>
+                </div>
+            
+                <div class="map__aside-result">
+                    <div class="scheme">
+                        <ul class="scheme__list"></ul>
+                        <div class="scheme__duration"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map__aside-card">
+                <div class="card">
+                </div>
+            </div>
+            
+        </aside>
+        <div class="map__infrastructure">
+            <div class="infrastructure">
+                <header class="infrastructure__header">
+                    <div class="infrastructure__close"></div>
+                    <div class="infrastructure__title">Инфраструктура</div>
+                </header>
+            
+                <div class="infrastructure__main">
+                    <div class="infrastructure__main-in">
+                        <div class="infrastructure__item _icon_elevators">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="lifts" id="map-infrastructure-1">
+                            <label for="map-infrastructure-1" class="infrastructure__item-label">Лифты</label>
+                        </div>
+                        <div class="infrastructure__item _icon_atm">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="atms" id="map-infrastructure-2">
+                            <label for="map-infrastructure-2" class="infrastructure__item-label">Банкоматы</label>
+                        </div>
+                        <div class="infrastructure__item _icon_railway">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="railway" id="map-infrastructure-6">
+                            <label for="map-infrastructure-6" class="infrastructure__item-label">Ж/Д вокзалы</label>
+                        </div>
+                        <div class="infrastructure__item _icon_air">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="air" id="map-infrastructure-7">
+                            <label for="map-infrastructure-7" class="infrastructure__item-label">Аэроэкспресс</label>
+                        </div>
+                        <div class="infrastructure__item _icon_tickets">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="tisket_cash" id="map-infrastructure-3">
+                            <label for="map-infrastructure-3" class="infrastructure__item-label">Билетные кассы</label>
+                        </div>
+                        <div class="infrastructure__item _icon_photos">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="fotobooth" id="map-infrastructure-4">
+                            <label for="map-infrastructure-4" class="infrastructure__item-label">Фотобудки</label>
+                        </div>*/?>
+                        <div class="infrastructure__item _icon_newspapers">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="newsdealer" id="map-infrastructure-5">
+                            <label for="map-infrastructure-5" class="infrastructure__item-label">Сувениры</label>
+                        </div>
+                        <div class="infrastructure__item _icon_repairs">
+                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="repairs" id="map-infrastructure-8">
+                            <label for="map-infrastructure-8" class="infrastructure__item-label">Ремонтные работы</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="callout"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
