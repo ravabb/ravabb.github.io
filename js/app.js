@@ -23465,6 +23465,7 @@ var metroLinesWithIds = [
     {
         "id": "lineD1",
         "name": "МЦД-1",
+        "isMCD": true,
         "color": "f7a600",
         "stations": [
             {
@@ -23654,6 +23655,7 @@ var metroLinesWithIds = [
      {
         "id": "lineD2",
         "name": "МЦД-2",
+        "isMCD": true,
         "color": "e94282",
         "stations": [
             {
@@ -35042,6 +35044,11 @@ var metroStationsConnections = [
         });
     }
 
+    function stationIsMcd(stationId) {
+      const { id } = getLineByStationId(stationId);
+      return id === 'lineD1' || id === 'lineD2';
+    }
+
     function getLineByStationId(stationId) {
         var lines = metroLinesWithIds;
         var lineId = stationId.split('_')[0];
@@ -35075,7 +35082,8 @@ var metroStationsConnections = [
     w.StationHelper = {
         getStationById: getStationById,
         findSameStationOnOtherLines: findSameStationOnOtherLines,
-        getLineByStationId: getLineByStationId
+        getLineByStationId: getLineByStationId,
+        stationIsMcd: stationIsMcd
     };
 })(window);
 blocks.callout = {
@@ -35145,7 +35153,7 @@ blocks.callout = {
                     var line = StationHelper.getLineByStationId(station.id);
                     return {
                         id: station.id,
-                        title: line.isCircle ? 'Кольцевая' : 'Радиальная',
+                        title: line.isCircle ? 'Кольцевая' : line.isMCD ? 'МЦД' : 'Радиальная',
                         color: line.color
                     };
                 });
@@ -35243,6 +35251,195 @@ blocks.form = {
     });
   }
 };
+
+
+blocks.validation__path = {
+
+  cls: {
+    closeButton: $('.validation__turn'),
+    body: $('.map__validation'),
+    paths_wrapper: $('.validation__paths')
+  },
+
+  init: function() {
+    this.handlers();
+    this.hidden();
+  },
+
+  handlers: function() {
+    that = this;
+    this.cls.closeButton.on('click', function() {
+      that.cls.body.toggleClass('open');
+    })
+
+  },
+
+  clear: function() {
+    this.cls.paths_wrapper.empty();
+  },
+
+  show: function() {
+    this.cls.body.show();
+  },
+
+  hidden: function() {
+    this.cls.body.hide();
+  },
+
+  combineData: function(data) {
+    const mcd1 = data.paths[0].stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
+    const mcd2 = data.paths[0].stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+
+    if (!mcd1.length && !mcd2.length) {
+      this.hidden();
+      return false;
+    }
+
+    const state = {
+      index: 0,
+      prev: null
+    }
+
+    const chunck = data.paths[0].stations.reduce((acc, st) => {
+      const { id } = StationHelper.getLineByStationId(st);
+      if (!state.prev) {
+        state.prev = id;
+        acc[state.index] = [st]
+        return acc;
+      }
+
+      if (state.prev === id) {
+        acc[state.index].push(st);
+        return acc;
+      } else {
+        state.index++;
+        state.prev = id;
+        acc[state.index] = [st]
+        return acc;
+      }
+    }, []);
+
+    let concat = [];
+    let result = [];
+
+    chunck.forEach((stArr, i) => {
+      const { id } = StationHelper.getLineByStationId(stArr[0]);
+      const nextId = chunck[i + 1] ? StationHelper.getLineByStationId(chunck[i + 1][0]).id : false;
+      if (id === 'lineD1' || id  === 'lineD2' ) {
+        result.push(stArr);
+      } else {
+        concat = concat.concat(stArr);
+        if (nextId === 'lineD1' || nextId  === 'lineD2' || chunck.length - 1 === i) {
+          result.push(concat);
+        }
+      }
+    })
+    
+    this.clear();
+    this.render(this.stationFromTo(result));
+  },
+
+  render: function(data) {
+    if (data) {
+      const state = {
+        firstFrom: 38,
+        price: 38,
+      };
+
+      data.forEach((station, i) => {
+
+        if (station.from.outside && i === 0) {
+          state.price = 45;
+          state.firstFrom = 45;
+        } else if (i > 0) {
+          state.price = 0;
+        }
+
+        $('<div>', {
+          class: 'validation__path',
+          append: $('<div>', {
+            class: 'path__wrapper',
+            append: $('<h3>', {
+              text: station.from.station.name,
+              append: $('<img>', {
+                class: 'line__logo ' + station.from.lineId.id,
+                src: '/img/lines/' + station.from.lineId.id + '.svg',
+              })
+            })
+            .add($('<p>', {
+              text: 'Валидация на вход',
+              append: $('<img>', {
+                src: "/img/card-val.svg"
+              })
+            }))
+            .add($('<p>', {
+              text: 'Списание ',
+              append: $('<span>', {
+                class: "price",
+                text: state.price + ' р.'
+              })
+            }))
+          })
+        })
+        .appendTo('.validation__paths');
+
+        if (station.to.outside && state.firstFrom === 38) {
+          state.price = 7;
+        } else {
+          state.price = 0;
+        }
+
+        $('<div>', {
+          class: 'validation__path',
+          append: $('<div>', {
+            class: 'path__wrapper',
+            append: $('<h3>', {
+              text: station.to.station.name,
+              append: $('<img>', {
+                class: 'line__logo ' + station.to.lineId.id,
+                src: '/img/lines/' + station.to.lineId.id + '.svg',
+              })
+            })
+            .add($('<p>', {
+              text: station.mcd ? 'Валидация на выход' : 'Валидация не требуется',
+              append: station.mcd ? $('<img>', {
+                src: "/img/card-val.svg"
+              }) : ''
+            }))
+            .add($('<p>', {
+              text: 'Списание ',
+              append: $('<span>', {
+                class: "price",
+                text: state.price + ' р.'
+              })
+            }))
+          })
+        }).appendTo('.validation__paths');
+      })
+      this.show();
+    }
+  },
+
+  stationFromTo: function(stArray) {
+    return stArray.reduce((acc, st) => {
+      return [...acc, {
+        from: {
+          station: StationHelper.getStationById(st[0]),
+          lineId: StationHelper.getLineByStationId(st[0]),
+          outside: StationHelper.getStationById(st[0]).outside ? true : false,
+        },
+        to: {
+          station: StationHelper.getStationById(st[st.length - 1]),
+          lineId: StationHelper.getLineByStationId(st[st.length - 1]),
+          outside: StationHelper.getStationById(st[st.length - 1]).outside ? true : false
+        },
+        mcd: StationHelper.stationIsMcd(st[0]),
+      }]
+    },[])
+  }
+  
+}
+
 blocks.fromto = {
 
     block: $('.fromto'),
@@ -35734,8 +35931,8 @@ blocks.map = {
                     var symbol = library[0].querySelector('[id=' + station.id + ']');
 
                     if (!symbol) {
-                        console.log(station);
-                        console.warn('Cannot find a symbol ' + station);
+                        // console.log(station);
+                        // console.warn('Cannot find a symbol ' + station);
                     } else {
                         out += '<g id="' + station.id + '">' +
                             symbol.innerHTML +
@@ -36807,10 +37004,10 @@ blocks.scheme = {
                     ).join(' ');
                 }
             })
-            .sortBy('changesCount')
+            .sortBy('time')
             .value();
 
-        out.paths = _.sortBy(out.paths, 'changesCount');
+        out.paths = _.sortBy(out.paths, 'time');
 
         out.tabs = out.scheme.length > 1;
 
@@ -36827,10 +37024,11 @@ blocks.scheme = {
         blocks.map.elem.result.html(
             Metro.templates.scheme(this.viewModel(data))
         );
+        console.log(data);
         blocks.shemeInfo.addInfo(this.data.paths[0]);
+        blocks.validation__path.combineData(data);
         blocks.shemeInfo.renderCoast(this.data.paths[0].stations, '#path-0');
         if ( this.data.paths.length > 1) {
-          console.log(this.data.paths);
           blocks.shemeInfo.renderCoast(this.data.paths[1].stations, '#path-1');
         }
         blocks.map.drawRoute(this.data.paths[0]);
