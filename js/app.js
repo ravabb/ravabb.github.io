@@ -35258,7 +35258,8 @@ blocks.validation__path = {
   cls: {
     closeButton: $('.validation__turn'),
     body: $('.map__validation'),
-    paths_wrapper: $('.validation__paths')
+    paths_wrapper: [$('#val_path-0'), $('#val_path-1')],
+    clear_button: $('.fromto__clear')
   },
 
   init: function() {
@@ -35270,12 +35271,16 @@ blocks.validation__path = {
     that = this;
     this.cls.closeButton.on('click', function() {
       that.cls.body.toggleClass('open');
-    })
-
+    });
+    this.cls.clear_button.on('click', function() {
+      that.clear();
+      that.hidden();
+    });
   },
 
   clear: function() {
-    this.cls.paths_wrapper.empty();
+    this.cls.paths_wrapper[0].empty();
+    this.cls.paths_wrapper[1].empty();
   },
 
   show: function() {
@@ -35287,8 +35292,10 @@ blocks.validation__path = {
   },
 
   combineData: function(data) {
-    const mcd1 = data.paths[0].stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
-    const mcd2 = data.paths[0].stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+    this.clear();
+    data.paths.forEach((path, index) => {
+      const mcd1 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
+    const mcd2 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
 
     if (!mcd1.length && !mcd2.length) {
       this.hidden();
@@ -35300,7 +35307,7 @@ blocks.validation__path = {
       prev: null
     }
 
-    const chunck = data.paths[0].stations.reduce((acc, st) => {
+    const chunck = path.stations.reduce((acc, st) => {
       const { id } = StationHelper.getLineByStationId(st);
       if (!state.prev) {
         state.prev = id;
@@ -35314,7 +35321,7 @@ blocks.validation__path = {
       } else {
         state.index++;
         state.prev = id;
-        acc[state.index] = [st]
+        acc[state.index] = [st];
         return acc;
       }
     }, []);
@@ -35334,12 +35341,11 @@ blocks.validation__path = {
         }
       }
     })
-    
-    this.clear();
-    this.render(this.stationFromTo(result));
+    this.render(this.stationFromTo(result), this.cls.paths_wrapper[index]);
+    })
   },
 
-  render: function(data) {
+  render: function(data, selector) {
     if (data) {
       const state = {
         firstFrom: 38,
@@ -35381,7 +35387,7 @@ blocks.validation__path = {
             }))
           })
         })
-        .appendTo('.validation__paths');
+        .appendTo(selector);
 
         if (station.to.outside && state.firstFrom === 38) {
           state.price = 7;
@@ -35414,7 +35420,7 @@ blocks.validation__path = {
               })
             }))
           })
-        }).appendTo('.validation__paths');
+        }).appendTo(selector);
       })
       this.show();
     }
@@ -35513,6 +35519,7 @@ blocks.fromto = {
 
             _.each(group, function(station) {
                 if (!station.close) {
+                  console.log(station);
                 out += '' +
                     '<div class="fromto__select-list-item"' +
                         ' style="border-color: #' + station.color + ';"' +
@@ -36965,6 +36972,7 @@ blocks.scheme = {
         $('body').on('click', '.scheme__tabs-item', function(e) {
             var self = $(this),
                 box = self.closest('.scheme'),
+                validation = $('.validation__paths');
                 tabs = box.find('.' + blocks.scheme.cls.tab),
                 paths = box.find('.' + blocks.scheme.cls.path),
                 curCls = '_current',
@@ -36973,11 +36981,14 @@ blocks.scheme = {
             if (!self.hasClass(curCls)) {
                 tabs.removeClass(curCls);
                 paths.removeClass(curCls);
+                validation.removeClass('active');
 
                 tabs
                     .filter('[data-rel=' + rel + ']')
                     .addClass(curCls);
-
+                validation
+                    .filter('#val_path-' + rel)
+                    .addClass('active');
                 paths
                     .filter('#path-' + rel)
                     .addClass(curCls);
