@@ -35816,20 +35816,27 @@ blocks.map = {
 
     init: function() {
         this.showMarkers();
-        this.getViewportSize();
+        panzoom(document.querySelector('.map__viewport-in'), {
+          onDoubleClick: function(e) {
+            e.preventDefault();
+            // `e` - is current double click event.
+        
+            return false; // tells the library to not preventDefault, and not stop propagation
+        },
+        zoomSpeed: 0.1,
+        maxZoom: 2.8,
+        minZoom: 0.5,
+        zoomDoubleClickSpeed: 1 })
+        .zoomAbs(
+          800, // initial x position
+          100, // initial y position
+          0.5  // initial zoom 
+        );
+        // this.getViewportSize();
         this.handlers();
     },
 
     handlers: function() {
-        var that = this,
-            win = $(window);
-
-        bindMapControl();
-
-        win.on('resize', function() {
-            that.getViewportSize();
-        });
-
         this.elem.markers.on('click', 'g', function(e) {
             e.stopPropagation();
 
