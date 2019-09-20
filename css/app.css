@@ -3428,17 +3428,12 @@ body._nav-active .header__nav {
 
 .map__viewport-in {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -855px 0 0 -785px;
+    top: 0;
+    left: 0;
+    margin: 0;
     width: 1600px;
     height: 2000px;
-    -webkit-transition: -webkit-transform .2s ease;
-    transition: transform .2s ease;
-    -webkit-transform: scale(.5);
-    -ms-transform: scale(.5);
-    transform: scale(.5);
-    zoom: 200%
+    transition: transform 0.1s cubic-bezier(1, 0.99, 0, 0.01);
 }
 
 .map__layer {
