@@ -35633,26 +35633,30 @@ blocks.map = {
 
     handlers: function() {
        let click;
+       let initPoint;
+       let finalPoint;
         this.elem.markers.on('touchstart', 'g', function(e) {
+          e.preventDefault();
+          initPoint=event.changedTouches[0];
           click = true;
         });
 
-        this.elem.markers.on('touchmove', 'g', function(e) {
-          click = false;
-        })
+        // this.elem.markers.on('touchmove', 'g', function(e) {
+        //   e.preventDefault();
+        //   click = false;
+        // })
 
         this.elem.markers.on('touchend', 'g', function(e) {
-          if (click) {
+          e.preventDefault();
+          finalPoint=event.changedTouches[0];
+          let xAbs = Math.abs(initPoint.pageX - finalPoint.pageX);
+          let yAbs = Math.abs(initPoint.pageY - finalPoint.pageY);
+          if (xAbs < 10 && yAbs < 10) {
             e.stopPropagation()
             var id = $(this).attr('id');
             blocks.callout.show(id);
           }
         })
-
-
-        this.elem.markers.on('click', function(e) {
-
-        });
     },
 
     moveUnderCallout: function(element) {
