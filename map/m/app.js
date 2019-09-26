@@ -34468,7 +34468,7 @@ var metroStationsConnections = [
     },
      {
         stations: ["line4_9", "lineD1_20"],
-        time: 180
+        time: 300
     },
      {
         stations: ["line4_13", "lineD1_22"],
@@ -35072,10 +35072,16 @@ var metroStationsConnections = [
         return sameNameStations;
     }
 
+    function stationIsMcd(stationId) {
+      const { id } = getLineByStationId(stationId);
+      return id === 'lineD1' || id === 'lineD2';
+    }
+
     w.StationHelper = {
         getStationById: getStationById,
         findSameStationOnOtherLines: findSameStationOnOtherLines,
-        getLineByStationId: getLineByStationId
+        getLineByStationId: getLineByStationId,
+        stationIsMcd: stationIsMcd
     };
 })(window);
 blocks.callout = {
@@ -35597,52 +35603,55 @@ blocks.map = {
         zoomOut: $('.zoom__out')
     },
 
-    state: {
-        zoom: 1,
-        touch: {},
-        shiftX: 0,
-        shiftY: 0,
-
-        w: 1440,
-        h: 1565,
-
-        ox: 720,
-        oy: 782,
-
-        safe: 200
-    },
-
     init: function() {
         this.showMarkers();
-        this.getViewportSize();
+        panzoom(document.querySelector('.map__viewport-in'), {
+          onDoubleClick: function(e) {
+            e.preventDefault();
+            // `e` - is current double click event.
+            return false; // tells the library to not preventDefault, and not stop propagation
+        },
+        onTouch: function(e) {
+          // `e` - is current touch event.
+          e.preventDefault();
+          // скрыть коллаут
+          blocks.callout.hide();
+          return false;
+        },
+        zoomSpeed: 0.1,
+        maxZoom: 2.8,
+        minZoom: 0.3,
+        zoomDoubleClickSpeed: 1 })
+        .zoomAbs(
+          -400, // initial x position
+          25, // initial y position
+          0.5  // initial zoom 
+        );
+        // this.getViewportSize();
         this.handlers();
     },
 
     handlers: function() {
-        var that = this,
-            win = $(window);
-
-        bindMapControl();
-
-        win.on('resize', function() {
-            that.getViewportSize();
+       let click;
+        this.elem.markers.on('touchstart', 'g', function(e) {
+          click = true;
         });
 
-        this.elem.markers.on('click', 'g', function(e) {
-            e.stopPropagation();
+        this.elem.markers.on('touchmove', 'g', function(e) {
+          click = false;
+        })
 
+        this.elem.markers.on('touchend', 'g', function(e) {
+          if (click) {
+            e.stopPropagation()
             var id = $(this).attr('id');
-
-            // Показать коллаут
             blocks.callout.show(id);
+          }
+        })
 
-            // that.moveUnderCallout(this);
-        });
 
         this.elem.markers.on('click', function(e) {
-            e.stopPropagation();
-            // скрыть коллаут
-            blocks.callout.hide();
+
         });
     },
 
@@ -35659,13 +35668,6 @@ blocks.map = {
         this.state.shiftY += destTop - top;
 
         this.applyState(this.state.shiftX, this.state.shiftY);
-    },
-
-    getViewportSize: function() {
-        var viewport = this.elem.viewport;
-
-        this.state.winW = viewport.width();
-        this.state.winH = viewport.height();
     },
 
     drawRoute: function(path) {
@@ -35750,7 +35752,233 @@ blocks.map = {
     }
 };
 
+blocks.validation__path = {
+
+  cls: {
+    closeButton: $('.validation__turn'),
+    body: $('.map__validation'),
+    paths_wrapper: [$('#val_path-0'), $('#val_path-1')],
+    clear_button: $('.fromto__clear'),
+    showValidationButton: $('.fromto__validation-info')
+  },
+
+  init: function() {
+    this.handlers();
+  },
+
+  handlers: function() {
+    that = this;
+    var initialPoint;
+    var finalPoint;
+    document.querySelector('.validation__turn').addEventListener('touchstart', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      initialPoint=event.changedTouches[0];
+      }, false);
+
+      document.querySelector('.validation__turn').addEventListener('touchend', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      finalPoint=event.changedTouches[0];
+      var xAbs = Math.abs(initialPoint.pageX - finalPoint.pageX);
+      var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
+
+      if (xAbs > 20 || yAbs > 20) {
+        if (finalPoint.pageY > initialPoint.pageY) {
+          that.cls.body.removeClass('open');
+        } else {
+          
+        }
+      }
+    }, false);
+
+    this.cls.showValidationButton.on('click', function(e) {
+      that.cls.body.addClass('open');
+    })
+
+    that.cls.clear_button.on('click', function() {
+      that.clear();
+      that.hiddenButton();
+    })
+  },
+
+  clear: function() {
+    this.cls.paths_wrapper.forEach(wrapper => {
+      wrapper.empty();
+      wrapper.removeClass('active');
+    });
+    this.cls.paths_wrapper[0].addClass('active');
+  },
+
+  showButton: function() {
+    this.cls.showValidationButton.addClass('active');
+  },
+
+  hiddenButton: function() {
+    this.cls.showValidationButton.removeClass('active');
+  },
+
+  combineData: function(data) {
+    this.clear();
+    data.paths.forEach((path, index) => {
+      const mcd1 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
+    const mcd2 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+
+    if (!mcd1.length && !mcd2.length) {
+      return false;
+    }
+
+
+    const state = {
+      index: 0,
+      prev: null
+    }
+
+    const chunck = path.stations.reduce((acc, st) => {
+      const { id } = StationHelper.getLineByStationId(st);
+      if (!state.prev) {
+        state.prev = id;
+        acc[state.index] = [st]
+        return acc;
+      }
+
+      if (state.prev === id) {
+        acc[state.index].push(st);
+        return acc;
+      } else {
+        state.index++;
+        state.prev = id;
+        acc[state.index] = [st];
+        return acc;
+      }
+    }, []);
+
+    let concat = [];
+    let result = [];
+
+    chunck.forEach((stArr, i) => {
+      const { id } = StationHelper.getLineByStationId(stArr[0]);
+      const nextId = chunck[i + 1] ? StationHelper.getLineByStationId(chunck[i + 1][0]).id : false;
+      if (id === 'lineD1' || id  === 'lineD2' ) {
+        result.push(stArr);
+      } else {
+        concat = concat.concat(stArr);
+        if (nextId === 'lineD1' || nextId  === 'lineD2' || chunck.length - 1 === i) {
+          result.push(concat);
+        }
+      }
+    })
+    this.render(this.stationFromTo(result), this.cls.paths_wrapper[index]);
+    })
+  },
+
+  render: function(data, selector) {
+    if (data) {
+      const state = {
+        firstFrom: 38,
+        price: 38,
+      };
+
+      data.forEach((station, i) => {
+
+        if (station.from.outside && i === 0) {
+          state.price = 45;
+          state.firstFrom = 45;
+        } else if (i > 0) {
+          state.price = 0;
+        }
+
+        $('<div>', {
+          class: 'validation__path',
+          append: $('<div>', {
+            class: 'path__wrapper',
+            append: $('<h3>', {
+              text: station.from.station.name,
+              append: $('<img>', {
+                class: 'line__logo ' + station.from.lineId.id,
+                src: '/img/lines/' + station.from.lineId.id + '.svg',
+              })
+            })
+            .add($('<p>', {
+              text: 'Валидация на вход',
+              append: $('<img>', {
+                src: "/img/card-val.svg"
+              })
+            }))
+            .add($('<p>', {
+              text: 'Списание ',
+              append: $('<span>', {
+                class: "price",
+                text: state.price + ' р.'
+              })
+            }))
+          })
+        })
+        .appendTo(selector);
+
+        if (station.to.outside && state.firstFrom === 38) {
+          state.price = 7;
+        } else {
+          state.price = 0;
+        }
+
+        $('<div>', {
+          class: 'validation__path',
+          append: $('<div>', {
+            class: 'path__wrapper',
+            append: $('<h3>', {
+              text: station.to.station.name,
+              append: $('<img>', {
+                class: 'line__logo ' + station.to.lineId.id,
+                src: '/img/lines/' + station.to.lineId.id + '.svg',
+              })
+            })
+            .add($('<p>', {
+              text: station.mcd ? 'Валидация на выход' : 'Валидация не требуется',
+              append: station.mcd ? $('<img>', {
+                src: "/img/card-val.svg"
+              }) : ''
+            }))
+            .add($('<p>', {
+              text: 'Списание ',
+              append: $('<span>', {
+                class: "price",
+                text: state.price + ' р.'
+              })
+            }))
+          })
+        }).appendTo(selector);
+      })
+      this.showButton();
+    }
+  },
+
+  stationFromTo: function(stArray) {
+    return stArray.reduce((acc, st) => {
+      return [...acc, {
+        from: {
+          station: StationHelper.getStationById(st[0]),
+          lineId: StationHelper.getLineByStationId(st[0]),
+          outside: StationHelper.getStationById(st[0]).outside ? true : false,
+        },
+        to: {
+          station: StationHelper.getStationById(st[st.length - 1]),
+          lineId: StationHelper.getLineByStationId(st[st.length - 1]),
+          outside: StationHelper.getStationById(st[st.length - 1]).outside ? true : false
+        },
+        mcd: StationHelper.stationIsMcd(st[0]),
+      }]
+    },[])
+  }
+  
+}
+
 blocks.shemeInfo = {
+
+  elem: {
+    paths: ["#path-0", "#path-1"]
+  },
+
   init: function() {
 
   },
@@ -35794,47 +36022,49 @@ blocks.shemeInfo = {
     infoBody.append(anotherTicket);
   },
   
-  renderCoast: function(stations, pathId) {
-    const requireLines = ['lineD1', 'lineD2'];
-    const isMCD = stations.filter((station) => {
-     return station.slice(4,6) === 'D1' || station.slice(4,6) === 'D2';
-     }).length > 0 ? true : false;
-    const otherCost = stations.filter(st => StationHelper.getLineByStationId(st).id !== 'lineD1' &&StationHelper.getLineByStationId(st).id !== 'lineD2').length > 0 ? 38 : 0;
- 
-    const mcd1 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
-    const mcd2 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
- 
-   const fromMcd1 = metroCost[0].stations.find(st => st.fromId === mcd1[0]);
-   const mcd1Cost = fromMcd1 ? fromMcd1.toIds.find(st => st.id === mcd1[mcd1.length - 1]).cost : 0;
-   const fromMcd2 = metroCost[1].stations.find(st => st.fromId === mcd2[0]);
-   const mcd2Cost = fromMcd2 ? fromMcd2.toIds.find(st => st.id === mcd2[mcd2.length - 1]).cost : 0;
- 
-   const coast = document.createElement('div');
-   coast.classList.add('scheme__coat');
- 
-   coast.textContent = `По билетам ЦППК ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
- 
-   var hasOutsideStation = stations.map((station) => {
-     return StationHelper.getStationById(station);
-     }).filter((station) => {
-     return station.outside;
-     }).length > 0 ? true : false;
-    
-     var mcdCost = document.createElement('div');
-     mcdCost.classList.add('scheme__coat');
-    
-     if (hasOutsideStation) {
-       mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 45 ₽`;
-     } else {
-       mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 38 ₽`;
-     }
- 
-     if (isMCD) {
-       $(`${ pathId } .scheme__duration`).after(coast);
-       $(`${ pathId } .scheme__coat`).before(mcdCost);
-     }
- 
+  renderCoast: function(paths) {
+    paths.forEach((path, index) => {
+      const requireLines = ['lineD1', 'lineD2'];
+      const isMCD = path.stations.filter((station) => {
+       return station.slice(4,6) === 'D1' || station.slice(4,6) === 'D2';
+       }).length > 0 ? true : false;
+      const otherCost = path.stations.filter(st => StationHelper.getLineByStationId(st).id !== 'lineD1' &&StationHelper.getLineByStationId(st).id !== 'lineD2').length > 0 ? 38 : 0;
+   
+      const mcd1 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
+      const mcd2 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+   
+     const fromMcd1 = metroCost[0].stations.find(st => st.fromId === mcd1[0]);
+     const mcd1Cost = fromMcd1 ? fromMcd1.toIds.find(st => st.id === mcd1[mcd1.length - 1]).cost : 0;
+     const fromMcd2 = metroCost[1].stations.find(st => st.fromId === mcd2[0]);
+     const mcd2Cost = fromMcd2 ? fromMcd2.toIds.find(st => st.id === mcd2[mcd2.length - 1]).cost : 0;
+   
+     const coast = document.createElement('div');
+     coast.classList.add('scheme__coat');
+   
+     coast.textContent = `По билетам ЦППК ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
+   
+     var hasOutsideStation = path.stations.map((station) => {
+       return StationHelper.getStationById(station);
+       }).filter((station) => {
+       return station.outside;
+       }).length > 0 ? true : false;
+      
+       var mcdCost = document.createElement('div');
+       mcdCost.classList.add('scheme__coat');
+      
+       if (hasOutsideStation) {
+         mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 45 ₽`;
+       } else {
+         mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 38 ₽`;
+       }
+   
+       if (isMCD) {
+         $(`${ this.elem.paths[index] } .scheme__duration`).after(coast);
+         $(`${ this.elem.paths[index] } .scheme__coat`).before(mcdCost);
+       }
+    })
   }
+    
 };
 
 function isMobileDevice() {
@@ -36857,6 +37087,7 @@ blocks.scheme = {
             var self = $(this),
                 box = self.closest('.scheme'),
                 tabs = box.find('.' + blocks.scheme.cls.tab),
+                validation = $('.validation__paths');
                 paths = box.find('.' + blocks.scheme.cls.path),
                 curCls = '_current',
                 rel = parseInt(self.attr('data-rel'));
@@ -36864,10 +37095,14 @@ blocks.scheme = {
             if (!self.hasClass(curCls)) {
                 tabs.removeClass(curCls);
                 paths.removeClass(curCls);
+                validation.removeClass('active');
 
                 tabs
                     .filter('[data-rel=' + rel + ']')
                     .addClass(curCls);
+                validation
+                    .filter('#val_path-' + rel)
+                    .addClass('active');
 
                 paths
                     .filter('#path-' + rel)
@@ -36895,10 +37130,10 @@ blocks.scheme = {
                     ).join(' ');
                 }
             })
-            .sortBy('changesCount')
+            .sortBy('time')
             .value();
 
-        out.paths = _.sortBy(out.paths, 'changesCount');
+        out.paths = _.sortBy(out.paths, 'time');
 
         out.tabs = out.scheme.length > 1;
 
@@ -36915,7 +37150,8 @@ blocks.scheme = {
         blocks.map.elem.result.html(
             Metro.templates.scheme(this.viewModel(data))
         );
-        blocks.shemeInfo.renderCoast(this.data.paths[0].stations, '#path-0');
+        blocks.validation__path.combineData(data);
+        blocks.shemeInfo.renderCoast(this.data.paths);
         blocks.map.drawRoute(this.data.paths[0]);
     }
 };

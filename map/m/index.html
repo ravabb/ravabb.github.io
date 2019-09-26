@@ -52,12 +52,6 @@
             </div>
         </div>
 
-        <div class="map__zoom">
-            <div class="zoom">
-                <div class="zoom__in"></div>
-                <div class="zoom__out"></div>
-            </div>
-        </div>
         <aside class="map__aside">
             <div class="map__aside-in">
                 <div class="map__aside-fromto">
@@ -80,7 +74,10 @@
                                 <div class="fromto__select-list-in"></div>
                             </div>
                         </div>
+                    </div>
+                    <div class="path-buttons">
                         <div class="fromto__clear">Очистить маршрут</div>
+                        <div class="fromto__validation-info">Информация о валидации</div>
                     </div>
                 </div>
             
@@ -96,55 +93,27 @@
                 <div class="card">
                 </div>
             </div>
-            
         </aside>
-        <div class="map__infrastructure">
-            <div class="infrastructure">
-                <header class="infrastructure__header">
-                    <div class="infrastructure__close"></div>
-                    <div class="infrastructure__title">Инфраструктура</div>
-                </header>
-            
-                <div class="infrastructure__main">
-                    <div class="infrastructure__main-in">
-                        <div class="infrastructure__item _icon_elevators">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="lifts" id="map-infrastructure-1">
-                            <label for="map-infrastructure-1" class="infrastructure__item-label">Лифты</label>
-                        </div>
-                        <div class="infrastructure__item _icon_atm">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="atms" id="map-infrastructure-2">
-                            <label for="map-infrastructure-2" class="infrastructure__item-label">Банкоматы</label>
-                        </div>
-                        <div class="infrastructure__item _icon_railway">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="railway" id="map-infrastructure-6">
-                            <label for="map-infrastructure-6" class="infrastructure__item-label">Ж/Д вокзалы</label>
-                        </div>
-                        <div class="infrastructure__item _icon_air">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="air" id="map-infrastructure-7">
-                            <label for="map-infrastructure-7" class="infrastructure__item-label">Аэроэкспресс</label>
-                        </div>
-                        <div class="infrastructure__item _icon_tickets">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="tisket_cash" id="map-infrastructure-3">
-                            <label for="map-infrastructure-3" class="infrastructure__item-label">Билетные кассы</label>
-                        </div>
-                        <div class="infrastructure__item _icon_photos">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="fotobooth" id="map-infrastructure-4">
-                            <label for="map-infrastructure-4" class="infrastructure__item-label">Фотобудки</label>
-                        </div>*/?>
-                        <div class="infrastructure__item _icon_newspapers">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="newsdealer" id="map-infrastructure-5">
-                            <label for="map-infrastructure-5" class="infrastructure__item-label">Сувениры</label>
-                        </div>
-                        <div class="infrastructure__item _icon_repairs">
-                            <input type="radio" class="infrastructure__item-input" name="map-infrastructure" value="repairs" id="map-infrastructure-8">
-                            <label for="map-infrastructure-8" class="infrastructure__item-label">Ремонтные работы</label>
+
+        <div class="map__validation">
+            <div class="validation__turn">
+                <div class="close"></div>
+            </div>
+            <div class="validation__paths active" id="val_path-0">
+                    <div class="validation__path">
+                        <div class="path__wrapper">
+                            <h3>Бульвар Адмирала Ушакова </h3>
+                            <p>Валидация на вход <img src="/img/card-val.svg" alt=""></p>
+                            <p>Списание <span class="price">45 р.</span></p>
                         </div>
                     </div>
-                </div>
             </div>
-    </div>
-    <div class="callout"></div>
+            <div class="validation__paths" id="val_path-1">
+            </div>
+        </div>
 
+    <div class="callout"></div>
+    <script src='https://unpkg.com/panzoom@8.4.0/dist/panzoom.min.js'></script>
 <script src="app.js"></script>
 </body>
 </html>

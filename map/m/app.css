@@ -42,6 +42,62 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'MoscowSans';
+    src: url('/css/fonts/MoscowSansRegular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/css/fonts/Montserrat-Italic.ttf');
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'MoscowSans';
+    src: url('/css/fonts/MoscowSansMedium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MoscowSans';
+    src: url('/css/fonts/MoscowSansBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MoscowSans';
+    src: url('/css/fonts/MoscowSansExtraBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Moscow Sans Web';
+    src: url('/css/fonts/Moscow Sans Web-Light.eot')format('embedded-opentype');
+    src: url('/css/fonts/Moscow Sans Web-Light.woff')format('woff'),
+    url('/css/fonts/Moscow Sans Web-Light.woff2')format('woff2'),
+    url('/css/fonts/Moscow Sans Web-Light.svg')format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'Moscow Sans Web';
+	src:	url('/css/fonts/Moscow Sans Web-Bold.eot')format('embedded-opentype');
+	src:	url('/css/fonts/Moscow Sans Web-Bold.woff')format('woff'),
+			url('/css/fonts/Moscow Sans Web-Bold.woff2')format('woff2'),
+			url('/css/fonts/Moscow Sans Web-Bold.svg')format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
 html, body {
     height: 100%
 }
@@ -50,6 +106,7 @@ body {
     width: auto;
     margin: 0;
     padding: 0;
+    font-family: MoscowSans;
     /*min-width: 1280px;*/
     -webkit-font-smoothing: antialiased;
     background: #f3f3f3
@@ -2900,18 +2957,14 @@ font: 17px/52px 'FuturaDemi', Helvetica, Arial, sans-serif
 }
 
 .fromto__clear {
-    margin: 20px;
+    margin: 18px;
     display: none;
     color: #d62828;
     text-align: center;
-    font: 17px/18px 'FuturaDemi', Helvetica, Arial, sans-serif;
+    font: 16px/18px 'FuturaDemi', Helvetica, Arial, sans-serif;
     cursor: pointer;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 18px;
-    -ms-flex: 0 0 18px;
-    flex: 0 0 18px
 }
 
 .fromto__clear:hover {
@@ -3367,7 +3420,7 @@ body._nav-active .header__nav {
 
 .map {
     position: absolute;
-    top: 50px;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -3400,17 +3453,12 @@ body._nav-active .header__nav {
 
 .map__viewport-in {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -750px 0 0 -640px;
+    top: 0;
+    left: 0;
+    margin: 0;
     width: 1600px;
     height: 2000px;
-    -webkit-transition: -webkit-transform .2s ease;
-    transition: transform .2s ease;
-    -webkit-transform: scale(.5);
-    -ms-transform: scale(.5);
-    transform: scale(.5);
-    zoom: 100%
+    /* transition: transform 0.1s cubic-bezier(1, 0.99, 0, 0.01); */
 }
 
 .map__layer {
@@ -7323,12 +7371,10 @@ position: relative;
 }
 
 .scheme__tabs {
-    display: none !important;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    min-height: 40px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
@@ -7351,7 +7397,8 @@ position: relative;
 }
 
 .scheme__tabs-item._current {
-    background: #f2f2f2
+    background: #f2f2f2;
+    border-radius: 10px 10px 0 0;
 }
 
 .scheme__main {
@@ -7385,7 +7432,6 @@ position: relative;
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .scheme__scroller {
@@ -7491,10 +7537,10 @@ position: relative;
 
 .scheme__duration {
 position: relative;
-padding: 32px 0 20px 0;
+padding: 32px 0 20px 50px;
 background: #f2f2f2;
 color: #797b7d;
-font: 22px/1 'FuturaDemi', Helvetica, Arial, sans-serif;
+font: 16px/1 'FuturaDemi', Helvetica, Arial, sans-serif;
 -webkit-box-flex: 0;
 -webkit-flex: 0 0 auto;
 -ms-flex: 0 0 auto;
@@ -7506,7 +7552,7 @@ flex: 0 0 auto
     background-repeat: no-repeat;
     position: absolute;
     top: 58%;
-    left: 30%;
+    left: 5%;
     margin-top: -9px;
     width: 18px;
     height: 18px;
@@ -7514,9 +7560,9 @@ flex: 0 0 auto
 }
 
 .scheme__coat {
-    font: 22px/1 'FuturaDemi', Helvetica, Arial, sans-serif;
+    font: 16px/1 'FuturaDemi', Helvetica, Arial, sans-serif;
     color: #797b7d;
-    padding: 28px 0;
+    padding: 20px 0 20px 20px;
 }
 
 .scheme._widget .scheme__duration {
@@ -10201,6 +10247,26 @@ height: 224px;
 height: 180px;
 }
 
+.path-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.fromto__validation-info {
+    display: none;
+    margin: 18px;
+    color: #d62828;
+    text-align: center;
+    font: 16px/18px 'FuturaDemi', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+.fromto__validation-info.active {
+    display: flex;
+}
+
 /*Скрытые повторы названий станций (от наложения)*/
 
 g#line14_5,
@@ -10236,6 +10302,148 @@ g#line14_5,
 #line10_2 /*Каховская*/
 {
     visibility: hidden;
+}
+
+.map__validation {
+    position: absolute;
+    top: 130%;
+    left: 0px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px -10px 50px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    overflow-y: scroll;
+    height: 100%;
+    border-radius: 25px 25px 0 0;
+    transition: top 0.2s;
+    z-index: 9999999;
+}
+
+.map__validation.open {
+    top: 10px;
+}
+
+.validation__turn {
+    position: relative;
+    height: 38px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.validation__turn .close {
+    background-color: #E33C36;
+    width: 20%;
+    height: 4px;
+    margin-top: 10px;
+}
+
+/* .map__validation.open .validation__turn {
+    position: absolute;
+    right: 16px;
+    top: 11px;
+    font-size: 14px;
+    padding: 0;
+    background: #ffffff;
+    color: #000000;
+} */
+
+.turn__off .arrow {
+    width: 12px;
+}
+
+.turn__off {
+    display: none;
+}
+
+.open .turn__off {
+    display: inline;
+}
+
+.open .turn__on {
+    display: none;
+}
+
+.turn__on {
+    display: inline;
+}
+
+.turn__on .arrow__open {
+    transform: rotate(-180deg);
+    width: 15px;
+    margin-left: 5px;
+}
+
+.validation__paths {
+    display: none;
+    padding: 0 30px 0 30px;
+    flex-direction: column;
+}
+
+.validation__paths.active {
+    display: flex;
+}
+
+.validation__path {
+    position: relative;
+    display: flex;
+    margin: 12px 0;
+}
+
+.validation__path:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -22px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #E33C36;
+}
+
+.validation__path:not(:last-child):before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -16px;
+    width: 2px;
+    height: 135%;
+    background-color: #E33C36;
+}
+
+.validation__path .arrow-val {
+    margin: 0 10px;
+    width: 15px;
+}
+
+.validation__path h3 {
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.validation__path h3 .line__logo {
+    width: 18px;
+    margin-left: 8px;
+}
+
+.validation__path h3 .line__logo.lineD1, .validation__path h3 .line__logo.lineD2 {
+    width: 30px;
+}
+
+.validation__path p {
+    margin: 0;
+    font-weight: 500;
+    color: #000000ab;
+}
+
+.validation__path p img {
+    vertical-align: middle;
+    width: 30px;
+}
+
+.validation__path p .price {
+    color: #E33C36;
 }
 
 /*Закрытие ТКЛ
