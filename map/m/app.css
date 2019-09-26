@@ -10269,41 +10269,6 @@ height: 180px;
 
 /*Скрытые повторы названий станций (от наложения)*/
 
-g#line14_5,
-#line14_1,
-#line14_26,
-#line14_20,
-#line14_10,
-#line14_9,
-#line14_8,
-#line14_18,
-#line12_0,
-#line15_0,
-#line15_1,
-#line15_2,
-#line15_3,
-#line15_4,
-#line8_7,
-#line6_12,
-#line4_11,
-#line5_12,
-#line6_13,
-#line7_8,
-#line4_3,
-#line4_5,
-#line4_6,
-#line4_7,
-#line4_9,
-#line3_7,
-#line9_19,
-#line7_7,
-#line10_0,
-#line3_0,
-#line10_2 /*Каховская*/
-{
-    visibility: hidden;
-}
-
 .map__validation {
     position: absolute;
     top: 130%;
