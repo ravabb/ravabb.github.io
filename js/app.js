@@ -34469,7 +34469,7 @@ var metroStationsConnections = [
     },
      {
         stations: ["line4_9", "lineD1_20"],
-        time: 180
+        time: 300
     },
      {
         stations: ["line4_13", "lineD1_22"],
@@ -35826,7 +35826,8 @@ blocks.map = {
         zoomSpeed: 0.1,
         maxZoom: 2.8,
         minZoom: 0.5,
-        zoomDoubleClickSpeed: 1 })
+        zoomDoubleClickSpeed: 1,
+        contain: 'outside' })
         .zoomAbs(
           800, // initial x position
           100, // initial y position
@@ -37119,7 +37120,7 @@ blocks.shemeInfo = {
   const coast = document.createElement('div');
   coast.classList.add('scheme__coat');
 
-  coast.textContent = `По билетам ЦППК ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
+  coast.textContent = `Текущая стоимость поездки ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
 
   var hasOutsideStation = stations.map((station) => {
     return StationHelper.getStationById(station);
