@@ -37455,7 +37455,7 @@ blocks.shemeInfo = {
   const coast = document.createElement('div');
   coast.classList.add('scheme__coat');
 
-  coast.textContent = `По билетам ЦППК ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
+  coast.textContent = `Текущая стоимость поездки ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
 
   var hasOutsideStation = stations.map((station) => {
     return StationHelper.getStationById(station);
