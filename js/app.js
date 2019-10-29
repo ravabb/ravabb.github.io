@@ -35684,8 +35684,6 @@ blocks.validation__path = {
         prevIsMcd: false
       };
 
-      console.log(sections);
-
 
       this.cls.paths_wrapper[index].removeClass('empty');
 
@@ -37388,49 +37386,6 @@ blocks.shemeInfo = {
  init: function() {
  
  },
- addInfo: function(path) {
-     const isMCD = path.stations.filter((station) => {
- return station.slice(4,6) === 'D1' || station.slice(4,6) === 'D2';
- }).length > 0 ? true : false;
-     
- var infoBody = $('.scheme__scroller');
- var warning = document.createElement('div');
- warning.classList.add('scheme__warning')
-
- var warningTitle = document.createElement('h5');
- warningTitle.classList.add('scheme__warning__title');
- warningTitle.textContent = 'Важно ⚠';
-
- var warningText = document.createElement('p');
- warningText.classList.add('scheme__warning__text')
- warningText.textContent = 'Приложите свою карту «Тройка» или бесконтактный носитель на выходе со станции МЦД для бесплатной пересадки на метро';
-
- var warningAdditional = document.createElement('span');
- warningAdditional.classList.add('scheme__warning__info');
- warningAdditional.textContent = '*Бесплатная пересадка действует в течение 90 минут с первой валидация билета';
-     
-     if (isMCD) {
-          warning.append(warningTitle);
- warning.append(warningText);
- warning.append(warningAdditional);
-          infoBody.append(warning);
-     }
- var anotherTicket = document.createElement('div');
- anotherTicket.classList.add('scheme__ticket-info');
-
- var ticketTitle = document.createElement('h5');
- ticketTitle.classList.add('scheme__ticket-info__title');
- ticketTitle.textContent = 'Какие билеты действуют';
-
- var ticketText = document.createElement('p');
- ticketText.classList.add('scheme__ticket-info__text');
- ticketText.textContent = 'При поездке на МЦД действуют все билеты, записываемые на карту «Тройка», в том числе «Кошелёк», а также все билеты АО «Центральная ППК»';
- 
- anotherTicket.append(ticketTitle);
- anotherTicket.append(ticketText);
-
- infoBody.append(anotherTicket);
- },
 
  lineIds: {
    mcd1: 'lineD1',
@@ -37446,6 +37401,44 @@ blocks.shemeInfo = {
       this.renderDefaultCost(path, index, false);
     }
   },
+
+  renderMcdInformation: function() {
+    var infoBody = $('.scheme__scroller');
+    var warning = document.createElement('div');
+    warning.classList.add('scheme__warning')
+
+    var warningTitle = document.createElement('h5');
+    warningTitle.classList.add('scheme__warning__title');
+    warningTitle.textContent = 'Важно ⚠';
+
+    var warningText = document.createElement('p');
+    warningText.classList.add('scheme__warning__text')
+    warningText.textContent = 'Приложите свою карту «Тройка» или бесконтактный носитель на выходе со станции МЦД для бесплатной пересадки на метро';
+
+    var warningAdditional = document.createElement('span');
+    warningAdditional.classList.add('scheme__warning__info');
+    warningAdditional.textContent = '*Бесплатная пересадка действует в течение 90 минут с первой валидация билета';
+     
+    warning.append(warningTitle);
+    warning.append(warningText);
+    warning.append(warningAdditional);
+    infoBody.append(warning);
+    var anotherTicket = document.createElement('div');
+    anotherTicket.classList.add('scheme__ticket-info');
+
+    var ticketTitle = document.createElement('h5');
+    ticketTitle.classList.add('scheme__ticket-info__title');
+    ticketTitle.textContent = 'Какие билеты действуют';
+
+    var ticketText = document.createElement('p');
+    ticketText.classList.add('scheme__ticket-info__text');
+    ticketText.textContent = 'При поездке на МЦД действуют все билеты, записываемые на карту «Тройка», в том числе «Кошелёк», а также все билеты АО «Центральная ППК»';
+    
+    anotherTicket.append(ticketTitle);
+    anotherTicket.append(ticketText);
+
+    infoBody.append(anotherTicket);
+},
 
   renderDefaultCost: function(path, index, doubleCominMetro = false) {
     const outsideStation = path.findIndex(({ outside }) => outside);
@@ -37480,6 +37473,8 @@ blocks.shemeInfo = {
     mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" ${outsideCost} ₽`;
     $(`#path-${index} .scheme__duration`).after(coast);
     $(`#path-${index} .scheme__coat`).before(mcdCost);
+
+    this.renderMcdInformation();
   },
 
   checkMcdInPath: function(path) {
@@ -37493,50 +37488,6 @@ blocks.shemeInfo = {
       canMcdMiddle ? this.checkDoubleEnterMetro(sections, index) : this.renderDefaultCost(sections, index);
     }
   })
-
-
-
-  
-//    const requireLines = ['lineD1', 'lineD2'];
-//    const isMCD = stations.filter((station) => {
-//     return station.slice(4,6) === 'D1' || station.slice(4,6) === 'D2';
-//     }).length > 0 ? true : false;
-//    const otherCost = stations.filter(st => StationHelper.getLineByStationId(st).id !== 'lineD1' &&StationHelper.getLineByStationId(st).id !== 'lineD2').length > 0 ? 38 : 0;
-
-//    const mcd1 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
-//    const mcd2 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
-
-//   const fromMcd1 = metroCost.find(st => st.fromId === mcd1[0]);
-//   const mcd1Cost = fromMcd1 ? fromMcd1.toIds.find(st => st.id === mcd1[mcd1.length - 1]).cost : 0;
-//   const fromMcd2 = metroCost.find(st => st.fromId === mcd2[0]);
-//   const mcd2Cost = fromMcd2 ? fromMcd2.toIds.find(st => st.id === mcd2[mcd2.length - 1]).cost : 0;
-
-//   const coast = document.createElement('div');
-//   coast.classList.add('scheme__coat');
-
-//   coast.textContent = `Текущая стоимость поездки ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
-
-//   var hasOutsideStation = stations.map((station) => {
-//     return StationHelper.getStationById(station);
-//     }).filter((station) => {
-//     return station.outside;
-//     }).length > 0 ? true : false;
-   
-//     var mcdCost = document.createElement('div');
-//     mcdCost.classList.add('scheme__coat');
-   
-//     if (hasOutsideStation) {
-//       mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 45 ₽`;
-//     } else {
-//       mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 38 ₽`;
-//     }
-
-//     if (isMCD) {
-//       $(`${ pathId } .scheme__duration`).after(coast);
-//       $(`${ pathId } .scheme__coat`).before(mcdCost);
-//     }
-
-//  }
   }
 }
 
