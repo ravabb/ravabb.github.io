@@ -21487,9032 +21487,9024 @@ var metro = [
     }
 ];
 
-var metroCost = [{
-  "lineId": "lineD1",
-  "stations": [
+var metroCost = [
   {
-    "fromId": "lineD1_28",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 184
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_27",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 184
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_26",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 184
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_25",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 184
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_24",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 161
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_23",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 161
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_22",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 161
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_21",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 161
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_20",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 161
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_19",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 138
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_18",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 138
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_17",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 115
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_16",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 92
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_15",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 69
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_14",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 69
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_13",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 69
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_12",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 46
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_11",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 46
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_10",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 46
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_8",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 46
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_7",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 36
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 46
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_6",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 23
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_5",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 23
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_4",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 23
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_3",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 23
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_2",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 0
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 23
-      }
-    ]
-  },
-  {
-    "fromId": "lineD1_1",
-    "toIds": [
-      {
-        "id": "lineD1_28",
-        "cost": 184
-      },
-      {
-        "id": "lineD1_27",
-        "cost": 184
-      },
-      {
-        "id": "lineD1_26",
-        "cost": 184
-      },
-      {
-        "id": "lineD1_25",
-        "cost": 184
-      },
-      {
-        "id": "lineD1_24",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_23",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_22",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_21",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_20",
-        "cost": 161
-      },
-      {
-        "id": "lineD1_19",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_18",
-        "cost": 138
-      },
-      {
-        "id": "lineD1_17",
-        "cost": 115
-      },
-      {
-        "id": "lineD1_16",
-        "cost": 92
-      },
-      {
-        "id": "lineD1_15",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_14",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_13",
-        "cost": 69
-      },
-      {
-        "id": "lineD1_12",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_11",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_10",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_8",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_7",
-        "cost": 46
-      },
-      {
-        "id": "lineD1_6",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_5",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_4",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_3",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_2",
-        "cost": 23
-      },
-      {
-        "id": "lineD1_1",
-        "cost": 0
-      }
-    ]
-  }]},
-  {
-    "lineId": "lineD2",
-    "stations": [
-      {
-        "fromId": "lineD2_1",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 207
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_2",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 207
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_3",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 207
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_4",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 184
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_5",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 184
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_6",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 184
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_7",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 161
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_8",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 161
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_9",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 161
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_10",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 161
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_11",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 161
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_12",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 161
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_13",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 161
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_14",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 138
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_15",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 138
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_16",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 138
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_17",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 138
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_18",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 115
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_19",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 92
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_20",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 92
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_21",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 69
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_22",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 69
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_23",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 69
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_24",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 69
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_25",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 69
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_26",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 69
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_27",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 69
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_28",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 46
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_29",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 46
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_30",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 46
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_31",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 46
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_32",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 23
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_33",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 23
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_34",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 36
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 23
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_35",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 23
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_36",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 23
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_37",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 0
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 23
-          }
-        ]
-      },
-      {
-        "fromId": "lineD2_38",
-        "toIds": [
-          {
-            "id": "lineD2_1",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_2",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_3",
-            "cost": 207
-          },
-          {
-            "id": "lineD2_4",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_5",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_6",
-            "cost": 184
-          },
-          {
-            "id": "lineD2_7",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_8",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_9",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_10",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_11",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_12",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_13",
-            "cost": 161
-          },
-          {
-            "id": "lineD2_14",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_15",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_16",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_17",
-            "cost": 138
-          },
-          {
-            "id": "lineD2_18",
-            "cost": 115
-          },
-          {
-            "id": "lineD2_19",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_20",
-            "cost": 92
-          },
-          {
-            "id": "lineD2_21",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_22",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_23",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_24",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_25",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_26",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_27",
-            "cost": 69
-          },
-          {
-            "id": "lineD2_28",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_29",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_30",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_31",
-            "cost": 46
-          },
-          {
-            "id": "lineD2_32",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_33",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_34",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_35",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_36",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_37",
-            "cost": 23
-          },
-          {
-            "id": "lineD2_38",
-            "cost": 0
-          }
-        ]
-      }
-    ]
-  }
-]
+  "fromId": "lineD1_28",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 184
+    }
+  ]
+},
+{
+  "fromId": "lineD1_27",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 184
+    }
+  ]
+},
+{
+  "fromId": "lineD1_26",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 184
+    }
+  ]
+},
+{
+  "fromId": "lineD1_25",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 184
+    }
+  ]
+},
+{
+  "fromId": "lineD1_24",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 161
+    }
+  ]
+},
+{
+  "fromId": "lineD1_23",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 161
+    }
+  ]
+},
+{
+  "fromId": "lineD1_22",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 161
+    }
+  ]
+},
+{
+  "fromId": "lineD1_21",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 161
+    }
+  ]
+},
+{
+  "fromId": "lineD1_20",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 161
+    }
+  ]
+},
+{
+  "fromId": "lineD1_19",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 138
+    }
+  ]
+},
+{
+  "fromId": "lineD1_18",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 138
+    }
+  ]
+},
+{
+  "fromId": "lineD1_17",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 115
+    }
+  ]
+},
+{
+  "fromId": "lineD1_16",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 92
+    }
+  ]
+},
+{
+  "fromId": "lineD1_15",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 69
+    }
+  ]
+},
+{
+  "fromId": "lineD1_14",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 69
+    }
+  ]
+},
+{
+  "fromId": "lineD1_13",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 69
+    }
+  ]
+},
+{
+  "fromId": "lineD1_12",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 46
+    }
+  ]
+},
+{
+  "fromId": "lineD1_11",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 46
+    }
+  ]
+},
+{
+  "fromId": "lineD1_10",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 46
+    }
+  ]
+},
+{
+  "fromId": "lineD1_8",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 46
+    }
+  ]
+},
+{
+  "fromId": "lineD1_7",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 36
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 46
+    }
+  ]
+},
+{
+  "fromId": "lineD1_6",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 23
+    }
+  ]
+},
+{
+  "fromId": "lineD1_5",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 23
+    }
+  ]
+},
+{
+  "fromId": "lineD1_4",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 23
+    }
+  ]
+},
+{
+  "fromId": "lineD1_3",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 23
+    }
+  ]
+},
+{
+  "fromId": "lineD1_2",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 0
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 23
+    }
+  ]
+},
+{
+  "fromId": "lineD1_1",
+  "toIds": [
+    {
+      "id": "lineD1_28",
+      "cost": 184
+    },
+    {
+      "id": "lineD1_27",
+      "cost": 184
+    },
+    {
+      "id": "lineD1_26",
+      "cost": 184
+    },
+    {
+      "id": "lineD1_25",
+      "cost": 184
+    },
+    {
+      "id": "lineD1_24",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_23",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_22",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_21",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_20",
+      "cost": 161
+    },
+    {
+      "id": "lineD1_19",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_18",
+      "cost": 138
+    },
+    {
+      "id": "lineD1_17",
+      "cost": 115
+    },
+    {
+      "id": "lineD1_16",
+      "cost": 92
+    },
+    {
+      "id": "lineD1_15",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_14",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_13",
+      "cost": 69
+    },
+    {
+      "id": "lineD1_12",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_11",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_10",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_8",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_7",
+      "cost": 46
+    },
+    {
+      "id": "lineD1_6",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_5",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_4",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_3",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_2",
+      "cost": 23
+    },
+    {
+      "id": "lineD1_1",
+      "cost": 0
+    }
+  ]},
+    {
+      "fromId": "lineD2_1",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 207
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_2",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 207
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_3",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 207
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_4",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 184
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_5",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 184
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_6",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 184
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_7",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 161
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_8",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 161
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_9",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 161
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_10",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 161
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_11",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 161
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_12",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 161
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_13",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 161
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_14",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 138
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_15",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 138
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_16",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 138
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_17",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 138
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_18",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_19",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 92
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_20",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 92
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_21",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 69
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_22",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 69
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_23",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 69
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_24",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 69
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_25",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 69
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_26",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 69
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_27",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 69
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_28",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 46
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_29",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 46
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_30",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 46
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_31",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 46
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_32",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 23
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_33",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 23
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_34",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 36
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 23
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_35",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 23
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_36",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 23
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_37",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 0
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 23
+        }
+      ]
+    },
+    {
+      "fromId": "lineD2_38",
+      "toIds": [
+        {
+          "id": "lineD2_1",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_2",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_3",
+          "cost": 207
+        },
+        {
+          "id": "lineD2_4",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_5",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_6",
+          "cost": 184
+        },
+        {
+          "id": "lineD2_7",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_8",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_9",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_10",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_11",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_12",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_13",
+          "cost": 161
+        },
+        {
+          "id": "lineD2_14",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_15",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_16",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_17",
+          "cost": 138
+        },
+        {
+          "id": "lineD2_18",
+          "cost": 115
+        },
+        {
+          "id": "lineD2_19",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_20",
+          "cost": 92
+        },
+        {
+          "id": "lineD2_21",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_22",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_23",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_24",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_25",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_26",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_27",
+          "cost": 69
+        },
+        {
+          "id": "lineD2_28",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_29",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_30",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_31",
+          "cost": 46
+        },
+        {
+          "id": "lineD2_32",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_33",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_34",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_35",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_36",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_37",
+          "cost": 23
+        },
+        {
+          "id": "lineD2_38",
+          "cost": 0
+        }
+      ]
+    }
+  ]
 
 var metroLinesWithIds = [
     {
@@ -32493,6 +32485,7 @@ var metroLinesWithIds = [
     {
         "id": "lineD1",
         "name": "МЦД-1",
+        "isMCD": true,
         "color": "f7a600",
         "stations": [
             {
@@ -32682,6 +32675,7 @@ var metroLinesWithIds = [
      {
         "id": "lineD2",
         "name": "МЦД-2",
+        "isMCD": true,
         "color": "e94282",
         "stations": [
             {
@@ -32729,7 +32723,6 @@ var metroLinesWithIds = [
             {
                 "name": "Волоколамская",
                 "id": "lineD2_7",
-                "close": true,
                 "top": 339,
                 "left": 620
             },
@@ -32746,14 +32739,13 @@ var metroLinesWithIds = [
                 "left": 620
             },
             {
-                "name": "Щукинская",
+                "name": "Покровское-Стрешнево",
                 "id": "lineD2_10",
-                "close": true,
                 "top": 533,
                 "left": 732
             },
             {
-                "name": "Ленинградская",
+                "name": "Стрешнево",
                 "id": "lineD2_11",
                 "top": 639,
                 "left": 871
@@ -34387,7 +34379,7 @@ var metroStationsConnections = [
         time: 205
     },
     {
-        stations: ["lineD1_20", "lineD1_21"],
+        stations: ["lineD1_20", "lineD1_22"],
         inside: true,
         time: 175
     },
@@ -34718,8 +34710,8 @@ var metroStationsConnections = [
         time: 180
     },
     {
-        stations: ["line3_9", "lineD1_21"],
-        time: 120
+        // stations: ["line3_9", "lineD1_21"],
+        // time: 120
     },
     {
         stations: ["line3_10", "line8A_6"],
@@ -35207,7 +35199,9 @@ var metroStationsConnections = [
                     _line: line.id,
                     _station: station.id,
                     station: station.name,
-                    color: line.color
+                    color: line.color,
+                    outside: station.outside || false,
+                    isMcd: StationHelper.stationIsMcd(station.id) || false
                 };
             })
 
@@ -35298,7 +35292,6 @@ var metroStationsConnections = [
             var toNode = getNodeById(graph, to);
 
             var path = w.crow.Graph.findGoal({start: fromNode, goal: toNode, algorithm: "dijkstra"});
-            console.log(path);
             var usedStations = _.map(path && path.nodes || [], function(node) {
                 return node.id;
             });
@@ -35466,7 +35459,7 @@ blocks.callout = {
                     var line = StationHelper.getLineByStationId(station.id);
                     return {
                         id: station.id,
-                        title: line.isCircle ? 'Кольцевая' : 'Радиальная',
+                        title: line.isCircle ? 'Кольцевая' : line.isMCD ? 'МЦД' : 'Радиальная',
                         color: line.color
                     };
                 });
@@ -36026,7 +36019,7 @@ blocks.map = {
         }
 
         var newRoute = '<svg viewBox="0 0 1600 2000">';
-        var newSlices = slices.slice().sort((a, b) => {
+        var newSlices = slices && slices.slice().sort((a, b) => {
           return a.length - b.length;
         });
         _.each(newSlices, function(slice) {
@@ -36140,157 +36133,150 @@ blocks.validation__path = {
 
   combineData: function(data) {
     this.clear();
-    data.paths.forEach((path, index) => {
-      const mcd1 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
-    const mcd2 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+    this.hiddenButton();
+    const MCD_LINE_1 = 'lineD1';
+    const MCD_LINE_2 = 'lineD2';
+    const MONO_LINE = 'line13';
+    const MCC_LINE = 'line14';
+    const OUTSIDE_COST = 45;
+    const DEFAULT_COST = 38;
+    const COME_TEXT = 'Валидация на вход'
+    const EXIT_TEXT = 'Валидация на выход';
+    const CHANGE_TEXT = 'Переход';
+    const CARD_ELEMENT = "<img src='/img/card-val.svg'>";
+    const { scheme } = data;
 
-    if (!mcd1.length && !mcd2.length) {
-      return false;
-    }
-
-
-    const state = {
-      index: 0,
-      prev: null
-    }
-
-    const chunck = path.stations.reduce((acc, st) => {
-      const { id } = StationHelper.getLineByStationId(st);
-      if (!state.prev) {
-        state.prev = id;
-        acc[state.index] = [st]
-        return acc;
-      }
-
-      if (state.prev === id) {
-        acc[state.index].push(st);
-        return acc;
-      } else {
-        state.index++;
-        state.prev = id;
-        acc[state.index] = [st];
-        return acc;
-      }
-    }, []);
-
-    let concat = [];
-    let result = [];
-
-    chunck.forEach((stArr, i) => {
-      const { id } = StationHelper.getLineByStationId(stArr[0]);
-      const nextId = chunck[i + 1] ? StationHelper.getLineByStationId(chunck[i + 1][0]).id : false;
-      if (id === 'lineD1' || id  === 'lineD2' ) {
-        result.push(stArr);
-      } else {
-        concat = concat.concat(stArr);
-        if (nextId === 'lineD1' || nextId  === 'lineD2' || chunck.length - 1 === i) {
-          result.push(concat);
-        }
-      }
-    })
-    this.render(this.stationFromTo(result), this.cls.paths_wrapper[index]);
-    })
-  },
-
-  render: function(data, selector) {
-    if (data) {
-      const state = {
-        firstFrom: 38,
-        price: 38,
-      };
-
-      data.forEach((station, i) => {
-
-        if (station.from.outside && i === 0) {
-          state.price = 45;
-          state.firstFrom = 45;
-        } else if (i > 0) {
-          state.price = 0;
-        }
-
-        $('<div>', {
+    const renderNode = (stations, selector) => {
+      const nodes = stations.map(({ station, cost, validationNode, _line }) => {
+        return $('<div>', {
           class: 'validation__path',
           append: $('<div>', {
             class: 'path__wrapper',
             append: $('<h3>', {
-              text: station.from.station.name,
+              text: station,
               append: $('<img>', {
-                class: 'line__logo ' + station.from.lineId.id,
-                src: '/img/lines/' + station.from.lineId.id + '.svg',
+                class: 'line__logo ' + _line,
+                src: '/img/lines/' + _line + '.svg',
               })
             })
-            .add($('<p>', {
-              text: 'Валидация на вход',
-              append: $('<img>', {
-                src: "/img/card-val.svg"
-              })
-            }))
-            .add($('<p>', {
+            .add(validationNode)
+            .add(cost && $('<p>', {
               text: 'Списание ',
               append: $('<span>', {
                 class: "price",
-                text: state.price + ' р.'
+                text: cost + ' р.'
               })
             }))
           })
         })
-        .appendTo(selector);
+      });
 
-        if (station.to.outside && state.firstFrom === 38) {
-          state.price = 7;
-        } else {
-          state.price = 0;
-        }
+      nodes.forEach(node => {
+        node.appendTo(selector);
+      });
 
-        $('<div>', {
-          class: 'validation__path',
-          append: $('<div>', {
-            class: 'path__wrapper',
-            append: $('<h3>', {
-              text: station.to.station.name,
-              append: $('<img>', {
-                class: 'line__logo ' + station.to.lineId.id,
-                src: '/img/lines/' + station.to.lineId.id + '.svg',
-              })
-            })
-            .add($('<p>', {
-              text: station.mcd ? 'Валидация на выход' : 'Валидация не требуется',
-              append: station.mcd ? $('<img>', {
-                src: "/img/card-val.svg"
-              }) : ''
-            }))
-            .add($('<p>', {
-              text: 'Списание ',
-              append: $('<span>', {
-                class: "price",
-                text: state.price + ' р.'
-              })
-            }))
-          })
-        }).appendTo(selector);
-      })
       this.showButton();
     }
-  },
 
-  stationFromTo: function(stArray) {
-    return stArray.reduce((acc, st) => {
-      return [...acc, {
-        from: {
-          station: StationHelper.getStationById(st[0]),
-          lineId: StationHelper.getLineByStationId(st[0]),
-          outside: StationHelper.getStationById(st[0]).outside ? true : false,
-        },
-        to: {
-          station: StationHelper.getStationById(st[st.length - 1]),
-          lineId: StationHelper.getLineByStationId(st[st.length - 1]),
-          outside: StationHelper.getStationById(st[st.length - 1]).outside ? true : false
-        },
-        mcd: StationHelper.stationIsMcd(st[0]),
-      }]
-    },[])
-  }
-  
+
+    scheme.forEach(({ sections }, index) => {
+      if ((sections.findIndex(({ _line }) => _line === MCD_LINE_1 || _line === MCD_LINE_2)) === -1) {
+        this.cls.paths_wrapper[index].addClass('empty');
+        return;
+      }
+
+      console.log(sections);
+
+      const state = {
+        comingCost: null,
+        prevIsMcd: false
+      };
+
+
+      this.cls.paths_wrapper[index].removeClass('empty');
+
+
+      const res = sections.reduce((acc, st, index) => {
+
+        const { modifier, _line, _station, station, isMcd, outside } = st;
+
+        if (index > 0) state.prevIsMcd = sections[index - 1].isMcd;
+
+        const validationNode = $('<p>');
+
+        if (modifier === 'train') {
+          if ( index === 0 ) {
+            state.comingCost = outside ? OUTSIDE_COST : DEFAULT_COST;
+            validationNode.text(COME_TEXT)
+                          .append(CARD_ELEMENT);
+            return [...acc, {
+                ...st,
+                cost: state.comingCost,
+                validationNode
+              }]
+          }
+
+          const { prevIsMcd } = state;
+          if ( prevIsMcd || isMcd ||  _line === MONO_LINE || _line === MCC_LINE) {
+            validationNode.text(COME_TEXT).append(CARD_ELEMENT);
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          } else {
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          }
+          
+        } else if (modifier === 'afoot' || !modifier) {
+          if ( index === 0 ) {
+            state.comingCost = outside ? OUTSIDE_COST : DEFAULT_COST;
+
+            const text = isMcd ? `${COME_TEXT} <br> ${EXIT_TEXT}` : COME_TEXT;
+            
+            validationNode
+            .html(text)
+            .append(CARD_ELEMENT);
+
+            return [...acc, {
+                ...st,
+                cost: state.comingCost,
+                validationNode
+              }]
+          }
+
+          if (isMcd) {
+            const { comingCost, prevIsMcd } = state;
+            const cost = outside ? comingCost === DEFAULT_COST ? 7 : 0 : 0;
+            const text = !modifier && !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
+            validationNode.html(text).append(CARD_ELEMENT);
+            return [...acc, {
+                ...st,
+                cost,
+                validationNode
+            }]
+          } else if (sections.length -1 > index) {
+            validationNode.text(CHANGE_TEXT);
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          } return [...acc, {
+            ...st,
+            cost: 0,
+            validationNode
+          }]
+        }
+      }, []);
+
+     renderNode(res, `#val_path-${index}`);
+    });
+},
 }
 
 blocks.shemeInfo = {
@@ -36302,87 +36288,71 @@ blocks.shemeInfo = {
   init: function() {
 
   },
-  addInfo: function() {
-    var infoBody = $('.scheme__scroller');
-    var warning = document.createElement('div');
-    warning.classList.add('scheme__warning')
 
-    var warningTitle = document.createElement('h5');
-    warningTitle.classList.add('scheme__warning__title')
-    warningTitle.textContent = 'Важно ⚠️';
-
-    var warningText = document.createElement('p');
-    warningText.classList.add('scheme__warning__text')
-    warningText.textContent = 'Приложите свою карту «Тройка» или бесконтактный носитель на выходе со станции МЦД для бесплатной пересадки на метро.';
-
-    var warningAdditional = document.createElement('span');
-    warningAdditional.classList.add('scheme__warning__info');
-    warningAdditional.textContent = '*Бесплатная пересадка действует в течение 90 минут с первой валидация билета';
-
-    warning.append(warningTitle);
-    warning.append(warningText);
-    warning.append(warningAdditional);
-
-
-    var anotherTicket = document.createElement('div');
-    anotherTicket.classList.add('scheme__ticket-info');
-
-    var ticketTitle = document.createElement('h5');
-    ticketTitle.classList.add('scheme__ticket-info__title');
-    ticketTitle.textContent = '';
-
-    var ticketText = document.createElement('p');
-    ticketText.classList.add('scheme__ticket-info__text');
-    ticketText.textContent = 'При поездке на МЦД действуют все билеты, записываемые на карту «Тройка», в том числе «Кошелёк», а также все билеты АО «Центральная ППК»';
-    
-    anotherTicket.append(ticketTitle);
-    anotherTicket.append(ticketText);
-
-    infoBody.append(warning);
-    infoBody.append(anotherTicket);
+  lineIds: {
+    mcd1: 'lineD1',
+    mcd2: 'lineD2'
   },
+ 
+   checkDoubleEnterMetro: function(path, index) {
+     const mcdStationIndex = path.findIndex(({ isMcd }) => isMcd);
+     const notMcdStationIndex = _.findLastIndex( path, ({ isMcd }) => !isMcd);
+     if (mcdStationIndex < notMcdStationIndex) {
+       this.renderDefaultCost(path, index, true);
+     } else {
+       this.renderDefaultCost(path, index, false);
+     }
+   },
+ 
   
-  renderCoast: function(paths) {
-    paths.forEach((path, index) => {
-      const requireLines = ['lineD1', 'lineD2'];
-      const isMCD = path.stations.filter((station) => {
-       return station.slice(4,6) === 'D1' || station.slice(4,6) === 'D2';
-       }).length > 0 ? true : false;
-      const otherCost = path.stations.filter(st => StationHelper.getLineByStationId(st).id !== 'lineD1' &&StationHelper.getLineByStationId(st).id !== 'lineD2').length > 0 ? 38 : 0;
-   
-      const mcd1 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
-      const mcd2 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
-   
-     const fromMcd1 = metroCost[0].stations.find(st => st.fromId === mcd1[0]);
-     const mcd1Cost = fromMcd1 ? fromMcd1.toIds.find(st => st.id === mcd1[mcd1.length - 1]).cost : 0;
-     const fromMcd2 = metroCost[1].stations.find(st => st.fromId === mcd2[0]);
-     const mcd2Cost = fromMcd2 ? fromMcd2.toIds.find(st => st.id === mcd2[mcd2.length - 1]).cost : 0;
-   
-     const coast = document.createElement('div');
-     coast.classList.add('scheme__coat');
-   
-     coast.textContent = `Текущая стоимость поездки ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
-   
-     var hasOutsideStation = path.stations.map((station) => {
-       return StationHelper.getStationById(station);
-       }).filter((station) => {
-       return station.outside;
-       }).length > 0 ? true : false;
-      
-       var mcdCost = document.createElement('div');
-       mcdCost.classList.add('scheme__coat');
-      
-       if (hasOutsideStation) {
-         mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 45 ₽`;
-       } else {
-         mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 38 ₽`;
-       }
-   
-       if (isMCD) {
-         $(`${ this.elem.paths[index] } .scheme__duration`).after(coast);
-         $(`${ this.elem.paths[index] } .scheme__coat`).before(mcdCost);
-       }
-    })
+  renderDefaultCost: function(path, index, doubleCominMetro = false) {
+    const outsideStation = path.findIndex(({ outside }) => outside);
+    const outsideCost = outsideStation > -1 ? 48 : 38;
+    const mcd1Stations = path.filter(({ _line }) => _line === this.lineIds.mcd1);
+    const mcd2Stations = path.filter(({ _line }) => _line === this.lineIds.mcd2);
+
+    let cost = doubleCominMetro ? 38 : 0;
+    cost += outsideCost;
+
+    if (mcd1Stations.length) {
+      const [from, ...other] = mcd1Stations;
+      const fromId = from._station;
+      const to = other.length ? other[other.length - 1]._station : fromId;
+      const { toIds } = metroCost.find(st => st.fromId === fromId);
+      cost += toIds.find(({ id }) => id === to).cost;
+    }
+    if (mcd2Stations.length) {
+      const [from, ...other] = mcd2Stations;
+      const fromId = from._station;
+      const to = other.length ? other[other.length - 1]._station : fromId;
+      const { toIds } = metroCost.find(st => st.fromId === fromId);
+      cost += toIds.find(({ id }) => id === to).cost;
+    }
+
+    const coast = document.createElement('div');
+    coast.classList.add('scheme__coat');
+
+    coast.textContent = `Текущая стоимость поездки ${ cost } ₽`;
+    const mcdCost = document.createElement('div');
+    mcdCost.classList.add('scheme__coat');
+    mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" ${outsideCost} ₽`;
+    $(`#path-${index} .scheme__duration`).after(coast);
+    $(`#path-${index} .scheme__coat`).before(mcdCost);
+
+    //this.renderMcdInformation();
+  },
+
+  checkMcdInPath: function(path) {
+    return path.findIndex(({ isMcd }) => isMcd) > -1 ? true : false;
+  },
+
+  renderCoast: function({ scheme }) {
+  scheme.forEach(({ changesCount, sections }, index) => {
+    if (this.checkMcdInPath(sections)) {
+      const canMcdMiddle = changesCount >= 2;
+      canMcdMiddle ? this.checkDoubleEnterMetro(sections, index) : this.renderDefaultCost(sections, index);
+    }
+  })
   }
     
 };
@@ -37471,7 +37441,7 @@ blocks.scheme = {
             Metro.templates.scheme(this.viewModel(data))
         );
         blocks.validation__path.combineData(data);
-        blocks.shemeInfo.renderCoast(this.data.paths);
+        blocks.shemeInfo.renderCoast(data);
         blocks.map.drawRoute(this.data.paths[0]);
     }
 };

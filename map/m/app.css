@@ -10339,9 +10339,20 @@ height: 180px;
 }
 
 .validation__paths {
+    position: relative;
     display: none;
     padding: 0 30px 0 30px;
     flex-direction: column;
+}
+
+.validation__paths::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    width: 2px;
+    height: calc(100% - 34px);
+    background-color: #E33C36;
 }
 
 .validation__paths.active {
@@ -10365,7 +10376,7 @@ height: 180px;
     background-color: #E33C36;
 }
 
-.validation__path:not(:last-child):before {
+/* .validation__path:not(:last-child):before {
     content: "";
     position: absolute;
     top: 10px;
@@ -10373,7 +10384,7 @@ height: 180px;
     width: 2px;
     height: 135%;
     background-color: #E33C36;
-}
+} */
 
 .validation__path .arrow-val {
     margin: 0 10px;
