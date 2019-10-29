@@ -23902,10 +23902,8 @@ var metroLinesWithIds = [
     },
 ];
 
-var metroCost = [{
-  "lineId": "lineD1",
-  "stations": [
-  {
+var metroCost = [
+    {
     "fromId": "lineD1_28",
     "toIds": [
       {
@@ -26954,11 +26952,7 @@ var metroCost = [{
         "id": "lineD1_1",
         "cost": 0
       }
-    ]
-  }]},
-  {
-    "lineId": "lineD2",
-    "stations": [
+    ]},
       {
         "fromId": "lineD2_1",
         "toIds": [
@@ -32926,8 +32920,6 @@ var metroCost = [{
         ]
       }
     ]
-  }
-]
 
 var metroStationsConnections = [
     
@@ -35231,7 +35223,9 @@ var metroStationsConnections = [
                     _line: line.id,
                     _station: station.id,
                     station: station.name,
-                    color: line.color
+                    outside: station.outside || false,
+                    color: line.color,
+                    isMcd: StationHelper.stationIsMcd(station.id) || false
                 };
             })
 
@@ -35623,164 +35617,161 @@ blocks.validation__path = {
     this.cls.body.show();
   },
 
+  showActivePath: function() {
+    
+  },
+
   hidden: function() {
     this.cls.body.hide();
   },
 
   combineData: function(data) {
     this.clear();
-    data.paths.forEach((path, index) => {
-      const mcd1 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
-    const mcd2 = path.stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+    this.hidden();
+    const MCD_LINE_1 = 'lineD1';
+    const MCD_LINE_2 = 'lineD2';
+    const MONO_LINE = 'line13';
+    const MCC_LINE = 'line14';
+    const OUTSIDE_COST = 45;
+    const DEFAULT_COST = 38;
+    const COME_TEXT = 'Валидация на вход'
+    const EXIT_TEXT = 'Валидация на выход';
+    const CHANGE_TEXT = 'Переход';
+    const CARD_ELEMENT = "<img src='/img/card-val.svg'>";
+    const { scheme } = data;
 
-    if (!mcd1.length && !mcd2.length) {
-      this.hidden();
-      return false;
-    }
-
-    const state = {
-      index: 0,
-      prev: null
-    }
-
-    const chunck = path.stations.reduce((acc, st) => {
-      const { id } = StationHelper.getLineByStationId(st);
-      if (!state.prev) {
-        state.prev = id;
-        acc[state.index] = [st]
-        return acc;
-      }
-
-      if (state.prev === id) {
-        acc[state.index].push(st);
-        return acc;
-      } else {
-        state.index++;
-        state.prev = id;
-        acc[state.index] = [st];
-        return acc;
-      }
-    }, []);
-
-    let concat = [];
-    let result = [];
-
-    chunck.forEach((stArr, i) => {
-      const { id } = StationHelper.getLineByStationId(stArr[0]);
-      const nextId = chunck[i + 1] ? StationHelper.getLineByStationId(chunck[i + 1][0]).id : false;
-      if (id === 'lineD1' || id  === 'lineD2' ) {
-        result.push(stArr);
-      } else {
-        concat = concat.concat(stArr);
-        if (nextId === 'lineD1' || nextId  === 'lineD2' || chunck.length - 1 === i) {
-          result.push(concat);
-        }
-      }
-    })
-    this.render(this.stationFromTo(result), this.cls.paths_wrapper[index]);
-    })
-  },
-
-  render: function(data, selector) {
-    if (data) {
-      const state = {
-        firstFrom: 38,
-        price: 38,
-      };
-
-      data.forEach((station, i) => {
-
-        if (station.from.outside && i === 0) {
-          state.price = 45;
-          state.firstFrom = 45;
-        } else if (i > 0) {
-          state.price = 0;
-        }
-
-        $('<div>', {
+    const renderNode = (stations, selector) => {
+      const nodes = stations.map(({ station, cost, validationNode, _line }) => {
+        return $('<div>', {
           class: 'validation__path',
           append: $('<div>', {
             class: 'path__wrapper',
             append: $('<h3>', {
-              text: station.from.station.name,
+              text: station,
               append: $('<img>', {
-                class: 'line__logo ' + station.from.lineId.id,
-                src: '/img/lines/' + station.from.lineId.id + '.svg',
+                class: 'line__logo ' + _line,
+                src: '/img/lines/' + _line + '.svg',
               })
             })
-            .add($('<p>', {
-              text: 'Валидация на вход',
-              append: $('<img>', {
-                src: "/img/card-val.svg"
-              })
-            }))
-            .add($('<p>', {
+            .add(validationNode)
+            .add(cost && $('<p>', {
               text: 'Списание ',
               append: $('<span>', {
                 class: "price",
-                text: state.price + ' р.'
+                text: cost + ' р.'
               })
             }))
           })
         })
-        .appendTo(selector);
+      });
 
-        if (station.to.outside && state.firstFrom === 38) {
-          state.price = 7;
-        } else {
-          state.price = 0;
-        }
+      nodes.forEach(node => {
+        node.appendTo(selector);
+      });
 
-        $('<div>', {
-          class: 'validation__path',
-          append: $('<div>', {
-            class: 'path__wrapper',
-            append: $('<h3>', {
-              text: station.to.station.name,
-              append: $('<img>', {
-                class: 'line__logo ' + station.to.lineId.id,
-                src: '/img/lines/' + station.to.lineId.id + '.svg',
-              })
-            })
-            .add($('<p>', {
-              text: station.mcd ? 'Валидация на выход' : 'Валидация не требуется',
-              append: station.mcd ? $('<img>', {
-                src: "/img/card-val.svg"
-              }) : ''
-            }))
-            .add($('<p>', {
-              text: 'Списание ',
-              append: $('<span>', {
-                class: "price",
-                text: state.price + ' р.'
-              })
-            }))
-          })
-        }).appendTo(selector);
-      })
       this.show();
     }
-  },
 
-  stationFromTo: function(stArray) {
-    return stArray.reduce((acc, st) => {
-      return [...acc, {
-        from: {
-          station: StationHelper.getStationById(st[0]),
-          lineId: StationHelper.getLineByStationId(st[0]),
-          outside: StationHelper.getStationById(st[0]).outside ? true : false,
-        },
-        to: {
-          station: StationHelper.getStationById(st[st.length - 1]),
-          lineId: StationHelper.getLineByStationId(st[st.length - 1]),
-          outside: StationHelper.getStationById(st[st.length - 1]).outside ? true : false
-        },
-        mcd: StationHelper.stationIsMcd(st[0]),
-      }]
-    },[])
+
+    scheme.forEach(({ sections }, index) => {
+      if ((sections.findIndex(({ _line }) => _line === MCD_LINE_1 || _line === MCD_LINE_2)) === -1) {
+        this.cls.paths_wrapper[index].addClass('empty');
+        return;
+      }
+
+      const state = {
+        comingCost: null,
+        prevIsMcd: false
+      };
+
+      console.log(sections);
+
+
+      this.cls.paths_wrapper[index].removeClass('empty');
+
+
+      const res = sections.reduce((acc, st, index) => {
+
+        const { modifier, _line, _station, station, isMcd, outside } = st;
+
+        if (index > 0) state.prevIsMcd = sections[index - 1].isMcd;
+
+        const validationNode = $('<p>');
+
+        if (modifier === 'train') {
+          if ( index === 0 ) {
+            state.comingCost = outside ? OUTSIDE_COST : DEFAULT_COST;
+            validationNode.text(COME_TEXT)
+                          .append(CARD_ELEMENT);
+            return [...acc, {
+                ...st,
+                cost: state.comingCost,
+                validationNode
+              }]
+          }
+
+          const { prevIsMcd } = state;
+          if ( prevIsMcd || isMcd ||  _line === MONO_LINE || _line === MCC_LINE) {
+            validationNode.text(COME_TEXT).append(CARD_ELEMENT);
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          } else {
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          }
+          
+        } else if (modifier === 'afoot' || !modifier) {
+          if ( index === 0 ) {
+            state.comingCost = outside ? OUTSIDE_COST : DEFAULT_COST;
+
+            const text = isMcd ? `${COME_TEXT} <br> ${EXIT_TEXT}` : COME_TEXT;
+            
+            validationNode
+            .html(text)
+            .append(CARD_ELEMENT);
+
+            return [...acc, {
+                ...st,
+                cost: state.comingCost,
+                validationNode
+              }]
+          }
+
+          if (isMcd) {
+            const { comingCost, prevIsMcd } = state;
+            const cost = outside ? comingCost === DEFAULT_COST ? 7 : 0 : 0;
+            const text = !modifier && !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
+            validationNode.html(text).append(CARD_ELEMENT);
+            return [...acc, {
+                ...st,
+                cost,
+                validationNode
+            }]
+          } else if (sections.length -1 > index) {
+            validationNode.text(CHANGE_TEXT);
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          } return [...acc, {
+            ...st,
+            cost: 0,
+            validationNode
+          }]
+        }
+      }, []);
+
+     renderNode(res, `#val_path-${index}`);
+    });
   }
-  
-}
+},
 
 blocks.fromto = {
 
@@ -35855,7 +35846,6 @@ blocks.fromto = {
 
             _.each(group, function(station) {
                 if (!station.close) {
-                  console.log(station);
                 out += '' +
                     '<div class="fromto__select-list-item"' +
                         ' style="border-color: #' + station.color + ';"' +
@@ -36152,7 +36142,8 @@ blocks.map = {
 
     init: function() {
         this.showMarkers();
-        panzoom(document.querySelector('.map__viewport-in'), {
+        const mapView = document.querySelector('.map__viewport-in');
+        const instance = panzoom(mapView, {
           onDoubleClick: function(e) {
             e.preventDefault();
             // `e` - is current double click event.
@@ -36163,11 +36154,19 @@ blocks.map = {
         maxZoom: 2.8,
         minZoom: 0.5,
         zoomDoubleClickSpeed: 1 })
-        .zoomAbs(
+        instance.zoomAbs(
           800, // initial x position
           100, // initial y position
           0.5  // initial zoom 
         );
+
+        // this.elem.zoomIn.on('click', () => {
+        //   const { x, y, scale } = instance.getTransform();
+        //   console.log(instance);
+        //   instance.smoothZoomAbs(x + x * 0.5, y + y * 0.5, scale + 0.5);
+        // })
+        // this.elem.zoomOut
+
         // this.getViewportSize();
         this.handlers();
     },
@@ -36249,7 +36248,7 @@ blocks.map = {
         }
 
         var newRoute = '<svg viewBox="0 0 1600 2000">';
-        var newSlices = slices.slice().sort((a, b) => {
+        var newSlices = slices && slices.slice().sort((a, b) => {
           return a.length - b.length;
         });
         _.each(newSlices, function(slice) {
@@ -37378,13 +37377,9 @@ blocks.scheme = {
         blocks.map.elem.result.html(
             Metro.templates.scheme(this.viewModel(data))
         );
-        console.log(data);
-        blocks.shemeInfo.addInfo(this.data.paths[0]);
+        //blocks.shemeInfo.addInfo(this.data.paths[0]);
         blocks.validation__path.combineData(data);
-        blocks.shemeInfo.renderCoast(this.data.paths[0].stations, '#path-0');
-        if ( this.data.paths.length > 1) {
-          blocks.shemeInfo.renderCoast(this.data.paths[1].stations, '#path-1');
-        }
+        blocks.shemeInfo.renderCoast(data);
         blocks.map.drawRoute(this.data.paths[0]);
     }
 };
@@ -37436,49 +37431,115 @@ blocks.shemeInfo = {
 
  infoBody.append(anotherTicket);
  },
- 
- renderCoast: function(stations, pathId) {
-   const requireLines = ['lineD1', 'lineD2'];
-   const isMCD = stations.filter((station) => {
-    return station.slice(4,6) === 'D1' || station.slice(4,6) === 'D2';
-    }).length > 0 ? true : false;
-   const otherCost = stations.filter(st => StationHelper.getLineByStationId(st).id !== 'lineD1' &&StationHelper.getLineByStationId(st).id !== 'lineD2').length > 0 ? 38 : 0;
 
-   const mcd1 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
-   const mcd2 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+ lineIds: {
+   mcd1: 'lineD1',
+   mcd2: 'lineD2'
+ },
 
-  const fromMcd1 = metroCost[0].stations.find(st => st.fromId === mcd1[0]);
-  const mcd1Cost = fromMcd1 ? fromMcd1.toIds.find(st => st.id === mcd1[mcd1.length - 1]).cost : 0;
-  const fromMcd2 = metroCost[1].stations.find(st => st.fromId === mcd2[0]);
-  const mcd2Cost = fromMcd2 ? fromMcd2.toIds.find(st => st.id === mcd2[mcd2.length - 1]).cost : 0;
-
-  const coast = document.createElement('div');
-  coast.classList.add('scheme__coat');
-
-  coast.textContent = `Текущая стоимость поездки ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
-
-  var hasOutsideStation = stations.map((station) => {
-    return StationHelper.getStationById(station);
-    }).filter((station) => {
-    return station.outside;
-    }).length > 0 ? true : false;
-   
-    var mcdCost = document.createElement('div');
-    mcdCost.classList.add('scheme__coat');
-   
-    if (hasOutsideStation) {
-      mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 45 ₽`;
+  checkDoubleEnterMetro: function(path, index) {
+    const mcdStationIndex = path.findIndex(({ isMcd }) => isMcd);
+    const notMcdStationIndex = _.findLastIndex( path, ({ isMcd }) => !isMcd);
+    if (mcdStationIndex < notMcdStationIndex) {
+      this.renderDefaultCost(path, index, true);
     } else {
-      mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 38 ₽`;
+      this.renderDefaultCost(path, index, false);
+    }
+  },
+
+  renderDefaultCost: function(path, index, doubleCominMetro = false) {
+    const outsideStation = path.findIndex(({ outside }) => outside);
+    const outsideCost = outsideStation > -1 ? 48 : 38;
+    const mcd1Stations = path.filter(({ _line }) => _line === this.lineIds.mcd1);
+    const mcd2Stations = path.filter(({ _line }) => _line === this.lineIds.mcd2);
+
+    let cost = doubleCominMetro ? 38 : 0;
+    cost += outsideCost;
+
+    if (mcd1Stations.length) {
+      const [from, ...other] = mcd1Stations;
+      const fromId = from._station;
+      const to = other.length ? other[other.length - 1]._station : fromId;
+      const { toIds } = metroCost.find(st => st.fromId === fromId);
+      cost += toIds.find(({ id }) => id === to).cost;
+    }
+    if (mcd2Stations.length) {
+      const [from, ...other] = mcd2Stations;
+      const fromId = from._station;
+      const to = other.length ? other[other.length - 1]._station : fromId;
+      const { toIds } = metroCost.find(st => st.fromId === fromId);
+      cost += toIds.find(({ id }) => id === to).cost;
     }
 
-    if (isMCD) {
-      $(`${ pathId } .scheme__duration`).after(coast);
-      $(`${ pathId } .scheme__coat`).before(mcdCost);
-    }
+    const coast = document.createElement('div');
+    coast.classList.add('scheme__coat');
 
- }
- };
+    coast.textContent = `Текущая стоимость поездки ${ cost } ₽`;
+    const mcdCost = document.createElement('div');
+    mcdCost.classList.add('scheme__coat');
+    mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" ${outsideCost} ₽`;
+    $(`#path-${index} .scheme__duration`).after(coast);
+    $(`#path-${index} .scheme__coat`).before(mcdCost);
+  },
+
+  checkMcdInPath: function(path) {
+    return path.findIndex(({ isMcd }) => isMcd) > -1 ? true : false;
+  },
+
+  renderCoast: function({ scheme }) {
+  scheme.forEach(({ changesCount, sections }, index) => {
+    if (this.checkMcdInPath(sections)) {
+      const canMcdMiddle = changesCount >= 2;
+      canMcdMiddle ? this.checkDoubleEnterMetro(sections, index) : this.renderDefaultCost(sections, index);
+    }
+  })
+
+
+
+  
+//    const requireLines = ['lineD1', 'lineD2'];
+//    const isMCD = stations.filter((station) => {
+//     return station.slice(4,6) === 'D1' || station.slice(4,6) === 'D2';
+//     }).length > 0 ? true : false;
+//    const otherCost = stations.filter(st => StationHelper.getLineByStationId(st).id !== 'lineD1' &&StationHelper.getLineByStationId(st).id !== 'lineD2').length > 0 ? 38 : 0;
+
+//    const mcd1 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD1');
+//    const mcd2 = stations.filter(st => StationHelper.getLineByStationId(st).id === 'lineD2');
+
+//   const fromMcd1 = metroCost.find(st => st.fromId === mcd1[0]);
+//   const mcd1Cost = fromMcd1 ? fromMcd1.toIds.find(st => st.id === mcd1[mcd1.length - 1]).cost : 0;
+//   const fromMcd2 = metroCost.find(st => st.fromId === mcd2[0]);
+//   const mcd2Cost = fromMcd2 ? fromMcd2.toIds.find(st => st.id === mcd2[mcd2.length - 1]).cost : 0;
+
+//   const coast = document.createElement('div');
+//   coast.classList.add('scheme__coat');
+
+//   coast.textContent = `Текущая стоимость поездки ${ otherCost + mcd1Cost + mcd2Cost } ₽`;
+
+//   var hasOutsideStation = stations.map((station) => {
+//     return StationHelper.getStationById(station);
+//     }).filter((station) => {
+//     return station.outside;
+//     }).length > 0 ? true : false;
+   
+//     var mcdCost = document.createElement('div');
+//     mcdCost.classList.add('scheme__coat');
+   
+//     if (hasOutsideStation) {
+//       mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 45 ₽`;
+//     } else {
+//       mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" 38 ₽`;
+//     }
+
+//     if (isMCD) {
+//       $(`${ pathId } .scheme__duration`).after(coast);
+//       $(`${ pathId } .scheme__coat`).before(mcdCost);
+//     }
+
+//  }
+  }
+}
+
 blocks.schemewidget = {
   init: function() {
 
@@ -38021,25 +38082,25 @@ blocks.worktime = {
     }
 
 };
-blocks.zoom = {
+// blocks.zoom = {
 
-    init: function() {
-        this.handlers();
-    },
+//     init: function() {
+//         this.handlers();
+//     },
 
-    handlers: function() {
-        var zoomIn = $('.zoom__in'),
-            zoomOut = $('.zoomOut');
+//     handlers: function() {
+//         var zoomIn = $('.zoom__in'),
+//             zoomOut = $('.zoomOut');
 
-        // Zoom in button
-        zoomIn.on('click', function() {
+//         // Zoom in button
+//         zoomIn.on('click', function() {
+          
+//         });
 
-        });
+//         // Zoom out button
+//         zoomOut.on('click', function() {
 
-        // Zoom out button
-        zoomOut.on('click', function() {
+//         });
+//     }
 
-        });
-    }
-
-};
+// };
