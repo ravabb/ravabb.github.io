@@ -32023,12 +32023,12 @@ var metroLinesWithIds = [
                 "top": 1002,
                 "left": 867
             },
-/*            {
+            {
                 "name": "Варшавская",
                 "id": "line11_19",
                 "top": 1030,
                 "left": 867
-            },*/
+            },
 /*            {
                 "name": "Каширская",
                 "id": "line11_20",
@@ -32931,42 +32931,42 @@ var metroStationsConnections = [
     {
         stations: ["line1_1", "line1_2"],
         inside: true,
-        time: 140
+        time: 138
     },
     {
         stations: ["line1_2", "line1_3"],
         inside: true,
-        time: 223
+        time: 233
     },
     {
         stations: ["line1_3", "line1_4"],
         inside: true,
-        time: 200
+        time: 190
     },
     {
         stations: ["line1_4", "line1_5"],
         inside: true,
-        time: 123
+        time: 108
     },
     {
         stations: ["line1_5", "line1_6"],
         inside: true,
-        time: 108
+        time: 100
     },
     {
         stations: ["line1_6", "line1_7"],
         inside: true,
-        time: 115
+        time: 113
     },
     {
         stations: ["line1_7", "line1_8"],
         inside: true,
-        time: 98
+        time: 90
     },
     {
         stations: ["line1_8", "line1_9"],
         inside: true,
-        time: 120
+        time: 113
     },
     {
         stations: ["line1_9", "line1_10"],
@@ -32976,62 +32976,62 @@ var metroStationsConnections = [
     {
         stations: ["line1_10", "line1_11"],
         inside: true,
-        time: 108
+        time: 105
     },
     {
         stations: ["line1_11", "line1_12"],
         inside: true,
-        time: 103
+        time: 100
     },
         {
         stations: ["line1_12", "line1_13"],
         inside: true,
-        time: 130
+        time: 123
     },
         {
         stations: ["line1_13", "line1_14"],
         inside: true,
-        time: 148
+        time: 135
     },
     {
         stations: ["line1_14", "line1_15"],
         inside: true,
-        time: 100
+        time: 98
     },
     {
         stations: ["line1_15", "line1_16"],
         inside: true,
-        time: 163
+        time: 213
     },
     {
         stations: ["line1_16", "line1_17"],
         inside: true,
-        time: 200
+        time: 288
     },
         {
         stations: ["line1_17", "line1_18"],
         inside: true,
-        time: 178
+        time: 170
     },
     {
         stations: ["line1_18", "line1_19"],
         inside: true,
-        time: 175
+        time: 150
     },
     {
         stations: ["line1_19", "line1_20"],
         inside: true,
-        time: 195
+        time: 180
     },
     {
         stations: ["line1_20", "line1_21"],
         inside: true,
-        time: 200
+        time: 195
     },
         {
         stations: ["line1_21", "line1_22"],
         inside: true,
-        time: 133
+        time: 200
     },
     {
         stations: ["line1_22", "line1_23"],
@@ -33046,12 +33046,12 @@ var metroStationsConnections = [
         {
         stations: ["line1_24", "line1_25"],
         inside: true,
-        time: 185
+        time: 183
     },
     {
         stations: ["line1_25", "line1_26"],
         inside: true,
-        time: 95
+        time: 93
     },
     
      /*
@@ -33062,57 +33062,57 @@ var metroStationsConnections = [
     {
         stations: ["line2_1", "line2_2"],
         inside: true,
-        time: 135
+        time: 133
     },
     {
         stations: ["line2_2", "line2_3"],
         inside: true,
-        time: 135
+        time: 118
     },
     {
         stations: ["line2_3", "line2_4"],
         inside: true,
-        time: 140
+        time: 148
     },
     {
         stations: ["line2_4", "line2_5"],
         inside: true,
-        time: 180
+        time: 193
     },
     {
         stations: ["line2_5", "line2_6"],
         inside: true,
-        time: 170
+        time: 173
     },
     {
         stations: ["line2_6", "line2_7"],
         inside: true,
-        time: 130
+        time: 133
     },
     {
         stations: ["line2_7", "line2_8"],
         inside: true,
-        time: 170
+        time: 173
     },
     {
         stations: ["line2_8", "line2_9"],
         inside: true,
-        time: 170
+        time: 175
     },
     {
         stations: ["line2_9", "line2_10"],
         inside: true,
-        time: 115
+        time: 120
     },
     {
         stations: ["line2_10", "line2_11"],
         inside: true,
-        time: 115
+        time: 105
     },
     {
         stations: ["line2_11", "line2_12"],
         inside: true,
-        time: 125
+        time: 123
     },
     {
         stations: ["line2_12", "line2_13"],
@@ -33122,57 +33122,57 @@ var metroStationsConnections = [
     {
         stations: ["line2_13", "line2_14"],
         inside: true,
-        time: 135
+        time: 138
     },
     {
         stations: ["line2_14", "line2_15"],
         inside: true,
-        time: 210
+        time: 213
     },
     {
         stations: ["line2_15", "line2_16"],
         inside: true,
-        time: 145
+        time: 150
     },
     {
         stations: ["line2_16", "line2_17"],
         inside: true,
-        time: 155
+        time: 150
     },
     {
         stations: ["line2_17", "line2_18"],
         inside: true,
-        time: 200
+        time: 230
     },
     {
         stations: ["line2_18", "line2_19"],
         inside: true,
-        time: 195
+        time: 200
     },
     {
         stations: ["line2_19", "line2_20"],
         inside: true,
-        time: 155
+        time: 150
     },
     {
         stations: ["line2_20", "line2_21"],
         inside: true,
-        time: 185
+        time: 170
     },
     {
         stations: ["line2_21", "line2_22"],
         inside: true,
-        time: 140
+        time: 148
     },
     {
         stations: ["line2_22", "line2_23"],
         inside: true,
-        time: 145
+        time: 138
     },
     {
         stations: ["line2_23", "line2_24"],
         inside: true,
-        time: 300
+        time: 240
     },
 
     /*
@@ -33183,12 +33183,12 @@ var metroStationsConnections = [
     {
         stations: ["line3_1", "line3_2"],
         inside: true,
-        time: 150
+        time: 180
     },
     {
         stations: ["line3_2", "line3_3"],
         inside: true,
-        time: 145
+        time: 180
     },
     {
         stations: ["line3_3", "line3_4"],
@@ -33198,37 +33198,37 @@ var metroStationsConnections = [
     {
         stations: ["line3_4", "line3_5"],
         inside: true,
-        time: 220
+        time: 210
     },
     {
         stations: ["line3_5", "line3_6"],
         inside: true,
-        time: 470
+        time: 513
     },
     {
         stations: ["line3_6", "line3_7"],
         inside: true,
-        time: 165
+        time: 178
     },
     {
         stations: ["line3_7", "line3_8"],
         inside: true,
-        time: 200
+        time: 203
     },
     {
         stations: ["line3_8", "line3_9"],
         inside: true,
-        time: 175
+        time: 131
     },
     {
         stations: ["line3_9", "line3_10"],
         inside: true,
-        time: 225
+        time: 270
     },
     {
         stations: ["line3_10", "line3_11"],
         inside: true,
-        time: 235
+        time: 268
     },
     {
         stations: ["line3_11", "line3_12"],
@@ -33238,12 +33238,12 @@ var metroStationsConnections = [
     {
         stations: ["line3_12", "line3_13"],
         inside: true,
-        time: 145
+        time: 143
     },
     {
         stations: ["line3_13", "line3_14"],
         inside: true,
-        time: 125
+        time: 123
     },
     {
         stations: ["line3_14", "line3_15"],
@@ -33253,12 +33253,12 @@ var metroStationsConnections = [
     {
         stations: ["line3_15", "line3_16"],
         inside: true,
-        time: 185
+        time: 183
     },
     {
         stations: ["line3_16", "line3_17"],
         inside: true,
-        time: 155
+        time: 153
     },
     {
         stations: ["line3_17", "line3_18"],
@@ -33268,17 +33268,17 @@ var metroStationsConnections = [
     {
         stations: ["line3_18", "line3_19"],
         inside: true,
-        time: 165
+        time: 163
     },
     {
         stations: ["line3_19", "line3_20"],
         inside: true,
-        time: 200
+        time: 195
     },
     {
         stations: ["line3_20", "line3_21"],
         inside: true,
-        time: 190
+        time: 183
     },
     {
         stations: ["line3_21", "line3_22"],
@@ -33293,7 +33293,7 @@ var metroStationsConnections = [
     {
         stations: ["line4_1", "line4_2"],
         inside: true,
-        time: 100
+        time: 85
     },
     {
         stations: ["line4_2", "line4_3"],
@@ -33303,47 +33303,47 @@ var metroStationsConnections = [
     {
         stations: ["line4_3", "line4_4"],
         inside: true,
-        time: 160
+        time: 153
     },
     {
         stations: ["line4_4", "line4_5"],
         inside: true,
-        time: 290
+        time: 270
     },
     {
         stations: ["line4_5", "line4_6"],
         inside: true,
-        time: 70
+        time: 98
     },
     {
         stations: ["line4_4", "line4_7"],
         inside: true,
-        time: 155
+        time: 143
     },
     {
         stations: ["line4_7", "line4_8"],
         inside: true,
-        time: 130
+        time: 133
     },
     {
         stations: ["line4_8", "line4_9"],
         inside: true,
-        time: 165
+        time: 158
     },
     {
         stations: ["line4_9", "line4_10"],
         inside: true,
-        time: 165
+        time: 155
     },
     {
         stations: ["line4_10", "line4_11"],
         inside: true,
-        time: 115
+        time: 118
     },
     {
         stations: ["line4_11", "line4_12"],
         inside: true,
-        time: 135
+        time: 130
     },
     {
         stations: ["line4_12", "line4_13"],
@@ -33358,52 +33358,52 @@ var metroStationsConnections = [
     {
         stations: ["line5_1", "line5_2"],
         inside: true,
-        time: 185
+        time: 153
     },
     {
         stations: ["line5_2", "line5_3"],
         inside: true,
-        time: 170
+        time: 133
     },
     {
         stations: ["line5_3", "line5_4"],
         inside: true,
-        time: 135
+        time: 115
     },
     {
         stations: ["line5_4", "line5_5"],
         inside: true,
-        time: 115
+        time: 113
     },
     {
         stations: ["line5_5", "line5_6"],
         inside: true,
-        time: 115
+        time: 133
     },
     {
         stations: ["line5_6", "line5_7"],
         inside: true,
-        time: 125
+        time: 145
     },
     {
         stations: ["line5_7", "line5_8"],
         inside: true,
-        time: 180
+        time: 163
     },
     {
         stations: ["line5_8", "line5_9"],
         inside: true,
-        time: 175
+        time: 158
     },
     {
         stations: ["line5_9", "line5_10"],
         inside: true,
-        time: 170
+        time: 145
     },
     {
         stations: ["line5_10", "line5_11"],
         inside: true,
-        time: 130
+        time: 140
     },
     {
         stations: ["line5_11", "line5_12"],
@@ -33413,7 +33413,7 @@ var metroStationsConnections = [
     {
         stations: ["line5_12", "line5_1"],
         inside: true,
-        time: 165
+        time: 170
     },
     /*
      Калужско-Рижская линия — оранжевая ветка
@@ -33423,117 +33423,117 @@ var metroStationsConnections = [
     {
         stations: ["line6_1", "line6_2"],
         inside: true,
-        time: 160
+        time: 153
     },
     {
         stations: ["line6_2", "line6_3"],
         inside: true,
-        time: 160
+        time: 158
     },
     {
         stations: ["line6_3", "line6_4"],
         inside: true,
-        time: 140
+        time: 135
     },
     {
         stations: ["line6_4", "line6_5"],
         inside: true,
-        time: 220
+        time: 208
     },
     {
         stations: ["line6_5", "line6_6"],
         inside: true,
-        time: 140
+        time: 135
     },
     {
         stations: ["line6_6", "line6_7"],
         inside: true,
-        time: 145
+        time: 140
     },
     {
         stations: ["line6_7", "line6_8"],
         inside: true,
-        time: 145
+        time: 133
     },
     {
         stations: ["line6_8", "line6_9"],
         inside: true,
-        time: 120
+        time: 113
     },
     {
         stations: ["line6_9", "line6_10"],
         inside: true,
-        time: 105
+        time: 100
     },
     {
         stations: ["line6_10", "line6_11"],
         inside: true,
-        time: 130
+        time: 123
     },
     {
         stations: ["line6_11", "line6_12"],
         inside: true,
-        time: 175
+        time: 168
     },
     {
         stations: ["line6_12", "line6_13"],
         inside: true,
-        time: 165
+        time: 155
     },
     {
         stations: ["line6_13", "line6_14"],
         inside: true,
-        time: 135
+        time: 125
     },
     {
         stations: ["line6_14", "line6_15"],
         inside: true,
-        time: 195
+        time: 183
     },
     {
         stations: ["line6_15", "line6_16"],
         inside: true,
-        time: 185
+        time: 188
     },
     {
         stations: ["line6_16", "line6_17"],
         inside: true,
-        time: 120
+        time: 125
     },
     {
         stations: ["line6_17", "line6_18"],
         inside: true,
-        time: 120
+        time: 105
     },
     {
         stations: ["line6_18", "line6_19"],
         inside: true,
-        time: 145
+        time: 143
     },
     {
         stations: ["line6_19", "line6_20"],
         inside: true,
-        time: 180
+        time: 173
     },
     {
         stations: ["line6_20", "line6_21"],
         inside: true,
-        time: 115
+        time: 130
     },
     {
         stations: ["line6_21", "line6_22"],
         inside: true,
-        time: 160
+        time: 135
     },
     {
         stations: ["line6_22", "line6_23"],
         inside: true,
-        time: 190
+        time: 175
     },
     {
         stations: ["line6_23", "line6_24"],
         inside: true,
-        time: 140
+        time: 133
     },
 
     /*
@@ -33544,17 +33544,17 @@ var metroStationsConnections = [
     {
         stations: ["line7_1", "line7_2"],
         inside: true,
-        time: 105
+        time: 95
     },
     {
         stations: ["line7_2", "line7_3"],
         inside: true,
-        time: 200
+        time: 185
     },
     {
         stations: ["line7_3", "line7_4"],
         inside: true,
-        time: 100
+        time: 90
     },
     {
         stations: ["line7_4", "line7_5"],
@@ -33564,47 +33564,47 @@ var metroStationsConnections = [
     {
         stations: ["line7_5", "line7_6"],
         inside: true,
-        time: 190
+        time: 183
     },
     {
         stations: ["line7_6", "line7_7"],
         inside: true,
-        time: 200
+        time: 198
     },
     {
         stations: ["line7_7", "line7_8"],
         inside: true,
-        time: 150
+        time: 145
     },
     {
         stations: ["line7_8", "line7_9"],
         inside: true,
-        time: 135
+        time: 128
     },
     {
         stations: ["line7_9", "line7_10"],
         inside: true,
-        time: 130
+        time: 128
     },
     {
         stations: ["line7_10", "line7_11"],
         inside: true,
-        time: 165
+        time: 163
     },
     {
         stations: ["line7_11", "line7_12"],
         inside: true,
-        time: 120
+        time: 118
     },
     {
         stations: ["line7_12", "line7_13"],
         inside: true,
-        time: 95
+        time: 98
     },
     {
         stations: ["line7_13", "line7_14"],
         inside: true,
-        time: 175
+        time: 165
     },
     {
         stations: ["line7_14", "line7_15"],
@@ -33614,42 +33614,42 @@ var metroStationsConnections = [
     {
         stations: ["line7_15", "line7_16"],
         inside: true,
-        time: 140
+        time: 138
     },
     {
         stations: ["line7_16", "line7_17"],
         inside: true,
-        time: 250
+        time: 245
     },
     {
         stations: ["line7_17", "line7_18"],
         inside: true,
-        time: 185
+        time: 178
     },
     {
         stations: ["line7_18", "line7_19"],
         inside: true,
-        time: 195
+        time: 190
     },
     {
         stations: ["line7_19", "line7_20"],
         inside: true,
-        time: 170
+        time: 160
     },
     {
         stations: ["line7_20", "line7_21"],
         inside: true,
-        time: 235
+        time: 240
     },
     {
         stations: ["line7_21", "line7_22"],
         inside: true,
-        time: 200
+        time: 165
     },
     {
         stations: ["line7_22", "line7_23"],
         inside: true,
-        time: 140
+        time: 125
     }, 
     /*
     Калининская линия
@@ -33659,27 +33659,27 @@ var metroStationsConnections = [
     {
         stations: ["line8_1", "line8_2"],
         inside: true,
-        time: 235
+        time: 240
     },
     {
         stations: ["line8_2", "line8_3"],
         inside: true,
-        time: 160
+        time: 148
     },
     {
         stations: ["line8_3", "line8_4"],
         inside: true,
-        time: 235
+        time: 228
     },
     {
         stations: ["line8_4", "line8_5"],
         inside: true,
-        time: 165
+        time: 155
     },
     {
         stations: ["line8_5", "line8_6"],
         inside: true,
-        time: 185
+        time: 180
     },
     {
         stations: ["line8_6", "line8_7"],
@@ -33689,7 +33689,7 @@ var metroStationsConnections = [
     {
         stations: ["line8_7", "line8_8"],
         inside: true,
-        time: 145
+        time: 140
     },
     /*
     Солнцевская линия
@@ -33698,77 +33698,77 @@ var metroStationsConnections = [
     {
         stations: ["line8A_1", "line8A_2"],
         inside: true,
-        time: 180
+        time: 170
     },
     {
         stations: ["line8A_2", "line8A_3"],
         inside: true,
-        time: 140
+        time: 130
     },
     {
         stations: ["line8A_3", "line8A_4"],
         inside: true,
-        time: 220
+        time: 118
     },
     {
         stations: ["line8A_4", "line8A_5"],
         inside: true,
-        time: 130
+        time: 208
     },
     {
         stations: ["line8A_5", "line8A_6"],
         inside: true,
-        time: 160
+        time: 280
     },
     {
         stations: ["line8A_6", "line8A_7"],
         inside: true,
-        time: 150
+        time: 180
     },
     {
         stations: ["line8A_7", "line8A_8"],
         inside: true,
-        time: 140
+        time: 215
     },
     {
         stations: ["line8A_8", "line8A_9"],
         inside: true,
-        time: 140
+        time: 120
     },
     {
         stations: ["line8A_9", "line8A_10"],
         inside: true,
-        time: 130
+        time: 100
     },
     {
         stations: ["line8A_10", "line8A_11"],
         inside: true,
-        time: 160
+        time: 210
     },
     {
         stations: ["line8A_11", "line8A_12"],
         inside: true,
-        time: 150
+        time: 165
     },
     {
         stations: ["line8A_12", "line8A_13"],
         inside: true,
-        time: 140
+        time: 148
     },
     {
         stations: ["line8A_13", "line8A_14"],
         inside: true,
-        time: 140
+        time: 123
     },
     {
         stations: ["line8A_14", "line8A_15"],
         inside: true,
-        time: 140
+        time: 100
     },
     {
         stations: ["line8A_15", "line8A_16"],
         inside: true,
-        time: 140
+        time: 115
     },
      /*
      Серпуховско-Тимирязевская линия
@@ -33778,122 +33778,122 @@ var metroStationsConnections = [
     {
         stations: ["line9_1", "line9_2"],
         inside: true,
-        time: 155
+        time: 143
     },
     {
         stations: ["line9_2", "line9_3"],
         inside: true,
-        time: 180
+        time: 160
     },
     {
         stations: ["line9_3", "line9_4"],
         inside: true,
-        time: 170
+        time: 145
     },
     {
         stations: ["line9_4", "line9_5"],
         inside: true,
-        time: 155
+        time: 130
     },
     {
         stations: ["line9_5", "line9_6"],
         inside: true,
-        time: 190
+        time: 168
     },
     {
         stations: ["line9_6", "line9_7"],
         inside: true,
-        time: 100
+        time: 78
     },
     {
         stations: ["line9_7", "line9_8"],
         inside: true,
-        time: 120
+        time: 100
     },
     {
         stations: ["line9_8", "line9_9"],
         inside: true,
-        time: 120
+        time: 95
     },
     {
         stations: ["line9_9", "line9_10"],
         inside: true,
-        time: 160
+        time: 133
     },
     {
         stations: ["line9_10", "line9_11"],
         inside: true,
-        time: 110
+        time: 80
     },
     {
         stations: ["line9_11", "line9_12"],
         inside: true,
-        time: 155
+        time: 125
     },
     {
         stations: ["line9_12", "line9_13"],
         inside: true,
-        time: 140
+        time: 118
     },
     {
         stations: ["line9_13", "line9_14"],
         inside: true,
-        time: 125
+        time: 100
     },
     {
         stations: ["line9_14", "line9_15"],
         inside: true,
-        time: 190
+        time: 163
     },
     {
         stations: ["line9_15", "line9_16"],
         inside: true,
-        time: 230
+        time: 210
     },
     {
         stations: ["line9_16", "line9_17"],
         inside: true,
-        time: 120
+        time: 100
     },
     {
         stations: ["line9_17", "line9_18"],
         inside: true,
-        time: 105
+        time: 85
     },
     {
         stations: ["line9_18", "line9_19"],
         inside: true,
-        time: 115
+        time: 90
     },
     {
         stations: ["line9_19", "line9_20"],
         inside: true,
-        time: 135
+        time: 108
     },
     {
         stations: ["line9_20", "line9_21"],
         inside: true,
-        time: 170
+        time: 148
     },
     {
         stations: ["line9_21", "line9_22"],
         inside: true,
-        time: 115
+        time: 90
     },
     {
         stations: ["line9_22", "line9_23"],
         inside: true,
-        time: 150
+        time: 125
     },
     {
         stations: ["line9_23", "line9_24"],
         inside: true,
-        time: 115
+        time: 95
     },
     {
         stations: ["line9_24", "line9_25"],
         inside: true,
-        time: 150
+        time: 140
     },
      /*
      Люблинско-Дмитровская линия
@@ -33903,17 +33903,17 @@ var metroStationsConnections = [
   {
         stations: ["line10_1", "line10_2"],
         inside: true,
-        time: 140
+        time: 115
     },
     {
         stations: ["line10_2", "line10_3"],
         inside: true,
-        time: 140
+        time: 110
     },
     {
         stations: ["line10_3", "line10_4"],
         inside: true,
-        time: 140
+        time: 110
     },
     {
         stations: ["line10_4", "line10_5"],
@@ -33923,92 +33923,92 @@ var metroStationsConnections = [
     {
         stations: ["line10_5", "line10_6"],
         inside: true,
-        time: 145
+        time: 120
     },
     {
         stations: ["line10_6", "line10_7"],
         inside: true,
-        time: 200
+        time: 205
     },
     {
         stations: ["line10_7", "line10_8"],
         inside: true,
-        time: 160
+        time: 180
     },
     {
         stations: ["line10_8", "line10_9"],
         inside: true,
-        time: 145
+        time: 120
     },
     {
         stations: ["line10_9", "line10_10"],
         inside: true,
-        time: 145
+        time: 123
     },
     {
         stations: ["line10_10", "line10_11"],
         inside: true,
-        time: 170
+        time: 155
     },
     {
         stations: ["line10_11", "line10_12"],
         inside: true,
-        time: 190
+        time: 165
     },
     {
         stations: ["line10_12", "line10_13"],
         inside: true,
-        time: 165
+        time: 148
     },
     {
         stations: ["line10_13", "line10_14"],
         inside: true,
-        time: 160
+        time: 128
     },
     {
         stations: ["line10_14", "line10_15"],
         inside: true,
-        time: 140
+        time: 133
     },
     {
         stations: ["line10_15", "line10_16"],
         inside: true,
-        time: 240
+        time: 225
     },
     {
         stations: ["line10_16", "line10_17"],
         inside: true,
-        time: 170
+        time: 155
     },
     {
         stations: ["line10_17", "line10_18"],
         inside: true,
-        time: 175
+        time: 170
     },
     {
         stations: ["line10_18", "line10_19"],
         inside: true,
-        time: 210
+        time: 195
     },
     {
         stations: ["line10_19", "line10_20"],
         inside: true,
-        time: 135
+        time: 105
     },
     {
         stations: ["line10_20", "line10_21"],
         inside: true,
-        time: 185
+        time: 180
     },
     {
         stations: ["line10_21", "line10_22"],
         inside: true,
-        time: 135
+        time: 180
     },
     {
         stations: ["line10_22", "line10_23"],
         inside: true,
-        time: 100
+        time: 180
     },
     /*
      Большая Кольцевая линия
@@ -34018,38 +34018,38 @@ var metroStationsConnections = [
   {
         stations: ["line11_1", "line11_2"],
         inside: true,
-        time: 140
+        time: 170
     },
     {
         stations: ["line11_2", "line11_3"],
         inside: true,
-        time: 140
+        time: 130
     },
     {
         stations: ["line11_3", "line11_4"],
         inside: true,
-        time: 140
+        time: 118
     },
     {
         stations: ["line11_4", "line11_5"],
         inside: true,
-        time: 180
+        time: 208
     },
     {
         stations: ["line11_5", "line11_6"],
         inside: true,
-        time: 145
+        time: 160
     },
     /*
     Каховская линия
      */
 
     // Внутренние перегоны
-  {
+ /* {
         stations: ["line11A_1", "line11A_2"],
         inside: true,
-        time: 140
-    },
+        time: 175
+    }, */
      /*
      Бутовская линия (лёгкое метро)
      */
@@ -34121,62 +34121,62 @@ var metroStationsConnections = [
      {
         stations: ["line14_1", "line14_2"],
         inside: true,
-        time: 180
+        time: 110
     },
     {
         stations: ["line14_2", "line14_3"],
         inside: true,
-        time: 180
+        time: 130
     },
     {
         stations: ["line14_3", "line14_4"],
         inside: true,
-        time: 180
+        time: 205
     },
     {
         stations: ["line14_4", "line14_5"],
         inside: true,
-        time: 180
+        time: 125
     },
     {
         stations: ["line14_5", "line14_6"],
         inside: true,
-        time: 180
+        time: 210
     },
     {
         stations: ["line14_6", "line14_7"],
         inside: true,
-        time: 240
+        time: 120
     },
     {
         stations: ["line14_7", "line14_8"],
         inside: true,
-        time: 180
+        time: 55
     },
     {
         stations: ["line14_8", "line14_9"],
         inside: true,
-        time: 180
+        time: 115
     },
     {
         stations: ["line14_9", "line14_10"],
         inside: true,
-        time: 180
+        time: 140
     },
     {
         stations: ["line14_10", "line14_11"],
         inside: true,
-        time: 180
+        time: 95
     },
     {
         stations: ["line14_11", "line14_12"],
         inside: true,
-        time: 180
+        time: 100
     },
     {
         stations: ["line14_12", "line14_13"],
         inside: true,
-        time: 180
+        time: 95
     },
     {
         stations: ["line14_13", "line14_14"],
@@ -34186,92 +34186,92 @@ var metroStationsConnections = [
     {
         stations: ["line14_14", "line14_15"],
         inside: true,
-        time: 240
+        time: 140
     },
     {
         stations: ["line14_15", "line14_16"],
         inside: true,
-        time: 240
+        time: 130
     },
     {
         stations: ["line14_16", "line14_17"],
         inside: true,
-        time: 240
+        time: 330
     },
     {
         stations: ["line14_17", "line14_18"],
         inside: true,
-        time: 180
+        time: 145
     },
     {
         stations: ["line14_18", "line14_19"],
         inside: true,
-        time: 180
+        time: 100
     },
     {
         stations: ["line14_19", "line14_20"],
         inside: true,
-        time: 240
+        time: 125
     },
     {
         stations: ["line14_20", "line14_21"],
         inside: true,
-        time: 180
+        time: 115
     },
     {
         stations: ["line14_21", "line14_22"],
         inside: true,
-        time: 180
+        time: 145
     },
     {
         stations: ["line14_22", "line14_23"],
         inside: true,
-        time: 180
+        time: 115
     },
     {
         stations: ["line14_23", "line14_24"],
         inside: true,
-        time: 180
+        time: 210
     },
     {
         stations: ["line14_24", "line14_25"],
         inside: true,
-        time: 240
+        time: 135
     },
     {
         stations: ["line14_25", "line14_26"],
         inside: true,
-        time: 240
+        time: 190
     },
     {
         stations: ["line14_26", "line14_27"],
         inside: true,
-        time: 180
+        time: 210
     },
     {
         stations: ["line14_27", "line14_28"],
         inside: true,
-        time: 180
+        time: 175
     },
     {
         stations: ["line14_28", "line14_29"],
         inside: true,
-        time: 300
+        time: 135
     },
     {
         stations: ["line14_29", "line14_30"],
         inside: true,
-        time: 180
+        time: 230
     },
     {
         stations: ["line14_30", "line14_31"],
         inside: true,
-        time: 240
+        time: 165
     },
     {
         stations: ["line14_31", "line14_1"],
         inside: true,
-        time: 180
+        time: 165
     },
      /*
      Некрасовская линия — розовая линия
@@ -34281,17 +34281,17 @@ var metroStationsConnections = [
     {
         stations: ["line15_6", "line15_7"],
         inside: true,
-        time: 180
+        time: 205
     },
     {
         stations: ["line15_7", "line15_8"],
         inside: true,
-        time: 180
+        time: 105
     },
     {
         stations: ["line15_8", "line15_9"],
         inside: true,
-        time: 180
+        time: 140
     },
       /*
      МЦД-1 — оранжевый
@@ -34301,122 +34301,117 @@ var metroStationsConnections = [
   {
         stations: ["lineD1_1", "lineD1_2"],
         inside: true,
-        time: 250
+        time: 216
     },
     {
         stations: ["lineD1_2", "lineD1_3"],
         inside: true,
-        time: 105
+        time: 102
     },
     {
         stations: ["lineD1_3", "lineD1_4"],
         inside: true,
-        time: 280
+        time: 246
     },
     {
         stations: ["lineD1_4", "lineD1_5"],
         inside: true,
-        time: 105
+        time: 132
     },
     {
         stations: ["lineD1_5", "lineD1_6"],
         inside: true,
-        time: 175
+        time: 174
     },
     {
         stations: ["lineD1_6", "lineD1_7"],
         inside: true,
-        time: 205
+        time: 174
     },
     {
         stations: ["lineD1_7", "lineD1_8"],
         inside: true,
-        time: 205
+        time: 204
     },
     {
         stations: ["lineD1_8", "lineD1_10"],
         inside: true,
-        time: 180
+        time: 174
     },
     {
         stations: ["lineD1_10", "lineD1_11"],
         inside: true,
-        time: 175
+        time: 174
     },
     {
         stations: ["lineD1_11", "lineD1_12"],
         inside: true,
-        time: 105
+        time: 102
     },
     {
         stations: ["lineD1_12", "lineD1_14"],
         inside: true,
-        time: 320
+        time: 318
     },
     {
         stations: ["lineD1_14", "lineD1_16"],
         inside: true,
-        time: 340
+        time: 246
     },
     {
         stations: ["lineD1_16", "lineD1_17"],
         inside: true,
-        time: 265
+        time: 264
     },
     {
         stations: ["lineD1_17", "lineD1_18"],
         inside: true,
-        time: 205
+        time: 264
     },
     {
         stations: ["lineD1_18", "lineD1_19"],
         inside: true,
-        time: 175
+        time: 204
     },
     {
         stations: ["lineD1_19", "lineD1_20"],
         inside: true,
-        time: 205
+        time: 174
     },
     {
         stations: ["lineD1_20", "lineD1_22"],
         inside: true,
-        time: 175
-    },
-    {
-        stations: ["lineD1_21", "lineD1_22"],
-        inside: true,
-        time: 250
+        time: 430
     },
     {
         stations: ["lineD1_22", "lineD1_23"],
         inside: true,
-        time: 175
+        time: 174
     },
     {
         stations: ["lineD1_23", "lineD1_24"],
         inside: true,
-        time: 105
+        time: 102
     },
     {
         stations: ["lineD1_24", "lineD1_25"],
         inside: true,
-        time: 175
+        time: 174
     },
     {
         stations: ["lineD1_25", "lineD1_26"],
         inside: true,
-        time: 250
+        time: 246
     },
     {
         stations: ["lineD1_26", "lineD1_27"],
         inside: true,
-        time: 175
+        time: 174
     },
      {
         stations: ["lineD1_27", "lineD1_28"],
         inside: true,
-        time: 220
+        time: 246
     },
     /*
      МЦД-2 — розовый
@@ -34590,20 +34585,20 @@ var metroStationsConnections = [
       // Пересадки
     {
         stations: ["line1_1", "line14_1"],
-        time: 180
+        time: 300
     },
         {
         stations: ["line1_2", "line14_2"],
-        time: 300
+        time: 180
     },
     {
         stations: ["line1_6", "line5_1"],
         inside: true,
-        time: 360
+        time: 300
     },
     {
         stations: ["line1_6", "lineD2_17"],
-        time: 300
+        time: 480
     },
     {
         stations: ["line1_8", "line10_10"],
@@ -34631,7 +34626,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line1_11", "line4_1"],
-        time: 240
+        time: 180
     },
     {
         stations: ["line1_13", "line5_7"],
@@ -34651,19 +34646,19 @@ var metroStationsConnections = [
     },
     {
         stations: ["line2_8", "line8A_2"],
-        time: 360
+        time: 300
     },
     {
         stations: ["line2_8", "line11_2"],
-        time: 360
+        time: 300
     },
     {
         stations: ["line2_9", "lineD1_17"],
-        time: 120
+        time: 300
     },
     {
         stations: ["line2_9", "line5_10"],
-        time: 240
+        time: 180
     }, 
     {
         stations: ["line2_11", "line9_11"],
@@ -34693,16 +34688,20 @@ var metroStationsConnections = [
         stations: ["line2_15", "line14_11"],
         time: 600
     },
-    {
+  /*  {
         stations: ["line2_18", "line11A_1"],
         time: 180
-    },
+    }, */
     {
         stations: ["line2_20", "lineD2_29"],
-        time: 120
+        time: 240
     },
     {
         stations: ["line10_23", "line2_23"],
+        time: 180
+    },
+        {
+        stations: ["line3_3", "lineD2_7"],
         time: 180
     },
     {
@@ -34710,9 +34709,13 @@ var metroStationsConnections = [
         time: 180
     },
     {
-        // stations: ["line3_9", "lineD1_21"],
-        // time: 120
+        stations: ["line3_8", "lineD1_22"],
+        time: 600
     },
+  /*  {
+        stations: ["line3_9", "lineD1_21"],
+        time: 120
+    }, */
     {
         stations: ["line3_10", "line8A_6"],
         time: 120
@@ -34731,7 +34734,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line3_13", "line4_1"],
-        time: 180
+        time: 240
     },
     {
         stations: ["line3_15", "line10_11"],
@@ -34743,11 +34746,11 @@ var metroStationsConnections = [
     },
     {
         stations: ["line3_19", "line14_3"],
-        time: 540
+        time: 480
     },
     {
         stations: ["line3_15", "lineD2_18"],
-        time: 180
+        time: 240
     },
     {
         stations: ["line4_4", "line5_8"],
@@ -34757,33 +34760,29 @@ var metroStationsConnections = [
         stations: ["line4_5", "line11_6"],
         time: 180
     },
-    {
-        stations: ["line4_5", "lineD1_19"],
-        time: 660
-    },
      {
         stations: ["line4_6", "lineD1_19"],
-        time: 420
+        time: 540
+    },
+    {
+        stations: ["line4_6", "line14_18"],
+        time: 360
     },
     {
         stations: ["line4_8", "line14_17"],
         time: 360
     },
     {
-        stations: ["line4_6", "line14_18"],
-        time: 360
-    },
-     {
         stations: ["line4_9", "lineD1_20"],
         time: 300
     },
      {
         stations: ["line4_13", "lineD1_22"],
-        time: 540
+        time: 600
     },
     {
         stations: ["line5_1", "lineD2_17"],
-        time: 300
+        time: 600
     },
     {
         stations: ["line5_2", "line10_11"],
@@ -34791,7 +34790,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line5_2", "lineD2_18"],
-        time: 180
+        time: 240
     },
     {
         stations: ["line5_3", "line7_14"],
@@ -34827,7 +34826,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line6_4", "line14_29"],
-        time: 180
+        time: 240
     },
     {
         stations: ["line6_5", "line13_2"],
@@ -34835,7 +34834,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line6_7", "lineD2_16"],
-        time: 240
+        time: 300
     },
     {
         stations: ["line6_10", "line10_10"],
@@ -34862,8 +34861,16 @@ var metroStationsConnections = [
         time: 180
     },
     {
+        stations: ["line7_5", "lineD2_10"],
+        time: 900
+    },
+    {
+        stations: ["line7_6", "line14_21"],
+        time: 660
+    },
+    {
         stations: ["line7_6", "line14_22"],
-        time: 720
+        time: 600
     },
     {
         stations: ["line7_7", "line8A_4"],
@@ -34879,7 +34886,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line7_8", "lineD1_18"],
-        time: 60
+        time: 150
     },
     {
         stations: ["line7_11", "line9_11"],
@@ -34912,6 +34919,10 @@ var metroStationsConnections = [
     {
         stations: ["line8_6", "line10_12"],
         time: 180
+    },
+    {
+        stations: ["line8_6", "lineD2_19"],
+        time: 360
     },
     {
         stations: ["line8A_1", "line9_8"],
@@ -34951,7 +34962,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line8A_5", "lineD1_19"],
-        time: 660
+        time: 600
     },
     {
         stations: ["line9_4", "line14_28"],
@@ -34965,13 +34976,13 @@ var metroStationsConnections = [
         stations: ["line9_6", "line13_6"],
         time: 360
     },
-        {
+    {
         stations: ["line9_6", "lineD1_14"],
-        time: 120
+        time: 240
     },
     {
         stations: ["lineD1_14", "line13_6"],
-        time: 420
+        time: 300
     },
     {
         stations: ["line9_7", "lineD2_14"],
@@ -35003,7 +35014,7 @@ var metroStationsConnections = [
     },
     {
         stations: ["line10_3", "line14_27"],
-        time: 420
+        time: 480
     },
     {
         stations: ["line10_5", "line13_5"],
@@ -35042,8 +35053,20 @@ var metroStationsConnections = [
         time: 240
     },
     {
+        stations: ["line11_6", "lineD1_19"],
+        time: 660
+    },
+    {
+        stations: ["line14_18", "lineD1_19"],
+        time: 600
+    },
+    {
+        stations: ["line14_19", "lineD1_19"],
+        time: 600
+    },
+    {
         stations: ["line14_27", "lineD1_12"],
-        time: 120
+        time: 180
     },
     {
         stations: ["line14_23", "lineD2_11"],
@@ -36305,14 +36328,20 @@ blocks.shemeInfo = {
    },
  
   
-  renderDefaultCost: function(path, index, doubleCominMetro = false) {
-    const outsideStation = path.findIndex(({ outside }) => outside);
-    const outsideCost = outsideStation > -1 ? 48 : 38;
+   renderDefaultCost: function(path, index, doubleCominMetro = false) {
+    const hasOutsideStation = path.findIndex(({ outside }) => outside);
+    const hasMetroStation = path.findIndex(({ isMcd }) => !isMcd);
+
+    const costWithMetro = hasMetroStation > -1 ? 38 : 0;
+    const outsideCost = hasOutsideStation > -1 ? 7 : 0;
+
+    const troikaCost = hasOutsideStation > -1 ? 45 : 38;
+
     const mcd1Stations = path.filter(({ _line }) => _line === this.lineIds.mcd1);
     const mcd2Stations = path.filter(({ _line }) => _line === this.lineIds.mcd2);
 
     let cost = doubleCominMetro ? 38 : 0;
-    cost += outsideCost;
+    cost += outsideCost + costWithMetro;
 
     if (mcd1Stations.length) {
       const [from, ...other] = mcd1Stations;
@@ -36335,7 +36364,7 @@ blocks.shemeInfo = {
     coast.textContent = `Текущая стоимость поездки ${ cost } ₽`;
     const mcdCost = document.createElement('div');
     mcdCost.classList.add('scheme__coat');
-    mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" ${outsideCost} ₽`;
+    mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" ${troikaCost} ₽`;
     $(`#path-${index} .scheme__duration`).after(coast);
     $(`#path-${index} .scheme__coat`).before(mcdCost);
 
