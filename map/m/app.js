@@ -32026,6 +32026,7 @@ var metroLinesWithIds = [
             {
                 "name": "Варшавская",
                 "id": "line11_19",
+                "close": true,
                 "top": 1030,
                 "left": 867
             },
@@ -32227,6 +32228,7 @@ var metroLinesWithIds = [
     {
         "id": "line14",
         "name": "МЦК",
+        "isCircle": true,
         "color": "ffcec6",
         "stations": [
             {
@@ -32733,7 +32735,7 @@ var metroLinesWithIds = [
                 "left": 620
             },
             {
-                "name": "Тушино",
+                "name": "Тушинская",
                 "id": "lineD2_9",
                 "top": 487,
                 "left": 620
@@ -32776,7 +32778,7 @@ var metroLinesWithIds = [
                 "left": 884
             },
             {
-                "name": "Ржевская",
+                "name": "Рижская",
                 "id": "lineD2_16",
                 "top": 945,
                 "left": 867
@@ -36329,19 +36331,22 @@ blocks.shemeInfo = {
  
   
    renderDefaultCost: function(path, index, doubleCominMetro = false) {
-    const hasOutsideStation = path.findIndex(({ outside }) => outside);
-    const hasMetroStation = path.findIndex(({ isMcd }) => !isMcd);
 
-    const costWithMetro = hasMetroStation > -1 ? 38 : 0;
-    const outsideCost = hasOutsideStation > -1 ? 7 : 0;
+    const hasOutsideStation = path.findIndex(({ outside }) => outside) > -1;
 
-    const troikaCost = hasOutsideStation > -1 ? 45 : 38;
+    const hasMetroStation = path.findIndex(({ isMcd }) => !isMcd) > -1;
+
+    const costWithMetro = hasMetroStation ? 38 : 0;
+
+    // const outsideCost = hasOutsideStation && hasMetroStation ? 7 : 0;
+
+    const troikaCost = hasOutsideStation ? 45 : 38;
 
     const mcd1Stations = path.filter(({ _line }) => _line === this.lineIds.mcd1);
     const mcd2Stations = path.filter(({ _line }) => _line === this.lineIds.mcd2);
 
     let cost = doubleCominMetro ? 38 : 0;
-    cost += outsideCost + costWithMetro;
+    cost += costWithMetro;
 
     if (mcd1Stations.length) {
       const [from, ...other] = mcd1Stations;
