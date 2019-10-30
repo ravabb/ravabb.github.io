@@ -23003,12 +23003,12 @@ var metroLinesWithIds = [
                 "top": 1002,
                 "left": 867
             },
-/*            {
+            {
                 "name": "Варшавская",
                 "id": "line11_19",
                 "top": 1030,
                 "left": 867
-            },*/
+            },
 /*            {
                 "name": "Каширская",
                 "id": "line11_20",
@@ -34044,11 +34044,11 @@ var metroStationsConnections = [
      */
 
     // Внутренние перегоны
-  {
+ /* {
         stations: ["line11A_1", "line11A_2"],
         inside: true,
         time: 175
-    },
+    }, */
      /*
      Бутовская линия (лёгкое метро)
      */
@@ -34687,10 +34687,10 @@ var metroStationsConnections = [
         stations: ["line2_15", "line14_11"],
         time: 600
     },
-    {
+  /*  {
         stations: ["line2_18", "line11A_1"],
         time: 180
-    },
+    }, */
     {
         stations: ["line2_20", "lineD2_29"],
         time: 240
@@ -37441,13 +37441,19 @@ blocks.shemeInfo = {
 },
 
   renderDefaultCost: function(path, index, doubleCominMetro = false) {
-    const outsideStation = path.findIndex(({ outside }) => outside);
-    const outsideCost = outsideStation > -1 ? 48 : 38;
+    const hasOutsideStation = path.findIndex(({ outside }) => outside);
+    const hasMetroStation = path.findIndex(({ isMcd }) => !isMcd);
+
+    const costWithMetro = hasMetroStation > -1 ? 38 : 0;
+    const outsideCost = hasOutsideStation > -1 ? 7 : 0;
+
+    const troikaCost = hasOutsideStation > -1 ? 45 : 38;
+
     const mcd1Stations = path.filter(({ _line }) => _line === this.lineIds.mcd1);
     const mcd2Stations = path.filter(({ _line }) => _line === this.lineIds.mcd2);
 
     let cost = doubleCominMetro ? 38 : 0;
-    cost += outsideCost;
+    cost += outsideCost + costWithMetro;
 
     if (mcd1Stations.length) {
       const [from, ...other] = mcd1Stations;
@@ -37470,7 +37476,7 @@ blocks.shemeInfo = {
     coast.textContent = `Текущая стоимость поездки ${ cost } ₽`;
     const mcdCost = document.createElement('div');
     mcdCost.classList.add('scheme__coat');
-    mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" ${outsideCost} ₽`;
+    mcdCost.textContent = `По тарифу "Кошелек" карты "Тройка" ${troikaCost} ₽`;
     $(`#path-${index} .scheme__duration`).after(coast);
     $(`#path-${index} .scheme__coat`).before(mcdCost);
 
