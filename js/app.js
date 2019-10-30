@@ -23006,6 +23006,7 @@ var metroLinesWithIds = [
             {
                 "name": "Варшавская",
                 "id": "line11_19",
+                "close": true,
                 "top": 1030,
                 "left": 867
             },
@@ -23207,6 +23208,7 @@ var metroLinesWithIds = [
     {
         "id": "line14",
         "name": "МЦК",
+        "isCircle": true,
         "color": "ffcec6",
         "stations": [
             {
@@ -35225,7 +35227,8 @@ var metroStationsConnections = [
                     station: station.name,
                     outside: station.outside || false,
                     color: line.color,
-                    isMcd: StationHelper.stationIsMcd(station.id) || false
+                    isMcd: StationHelper.stationIsMcd(station.id) || false,
+                    validation: StationHelper.stationIsMcd(station.id) || line.id === "line13" || line.id === "line14"
                 };
             })
 
@@ -35679,6 +35682,8 @@ blocks.validation__path = {
         return;
       }
 
+      console.log(sections);
+
       const state = {
         comingCost: null,
         prevIsMcd: false
@@ -35690,7 +35695,7 @@ blocks.validation__path = {
 
       const res = sections.reduce((acc, st, index) => {
 
-        const { modifier, _line, _station, station, isMcd, outside } = st;
+        const { modifier, _line, _station, station, isMcd, validation, outside } = st;
 
         if (index > 0) state.prevIsMcd = sections[index - 1].isMcd;
 
@@ -35741,7 +35746,7 @@ blocks.validation__path = {
               }]
           }
 
-          if (isMcd) {
+          if (isMcd ) {
             const { comingCost, prevIsMcd } = state;
             const cost = outside ? comingCost === DEFAULT_COST ? 7 : 0 : 0;
             const text = !modifier && !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
@@ -35758,11 +35763,14 @@ blocks.validation__path = {
               cost: 0,
               validationNode
             }]
-          } return [...acc, {
-            ...st,
-            cost: 0,
-            validationNode
-          }]
+          } else {
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          }
+
         }
       }, []);
 
@@ -37441,19 +37449,22 @@ blocks.shemeInfo = {
 },
 
   renderDefaultCost: function(path, index, doubleCominMetro = false) {
-    const hasOutsideStation = path.findIndex(({ outside }) => outside);
-    const hasMetroStation = path.findIndex(({ isMcd }) => !isMcd);
 
-    const costWithMetro = hasMetroStation > -1 ? 38 : 0;
-    const outsideCost = hasOutsideStation > -1 ? 7 : 0;
+    const hasOutsideStation = path.findIndex(({ outside }) => outside) > -1;
 
-    const troikaCost = hasOutsideStation > -1 ? 45 : 38;
+    const hasMetroStation = path.findIndex(({ isMcd }) => !isMcd) > -1;
+
+    const costWithMetro = hasMetroStation ? 38 : 0;
+
+    // const outsideCost = hasOutsideStation && hasMetroStation ? 7 : 0;
+
+    const troikaCost = hasOutsideStation ? 45 : 38;
 
     const mcd1Stations = path.filter(({ _line }) => _line === this.lineIds.mcd1);
     const mcd2Stations = path.filter(({ _line }) => _line === this.lineIds.mcd2);
 
     let cost = doubleCominMetro ? 38 : 0;
-    cost += outsideCost + costWithMetro;
+    cost += costWithMetro;
 
     if (mcd1Stations.length) {
       const [from, ...other] = mcd1Stations;
