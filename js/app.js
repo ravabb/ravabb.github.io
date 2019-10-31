@@ -35775,7 +35775,7 @@ blocks.validation__path = {
                 cost,
                 validationNode
             }]
-          } else if (validation && !sections[index - 1].validation) {
+          } else if ((validation && !sections[index - 1].validation) || prevIsMcd ) {
             validationNode.text(COME_TEXT).append(CARD_ELEMENT);
             return [...acc, {
               ...st,
