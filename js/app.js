@@ -35782,7 +35782,15 @@ blocks.validation__path = {
               cost: 0,
               validationNode
             }]
-          } return [...acc, {
+          } else if (sections[index - 1].validation && !validation) {
+            validationNode.text(COME_TEXT).append(CARD_ELEMENT);
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          }
+           return [...acc, {
             ...st,
             cost: 0,
             validationNode
