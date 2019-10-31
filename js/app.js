@@ -35701,6 +35701,8 @@ blocks.validation__path = {
 
         const validationNode = $('<p>');
 
+        const { prevIsMcd, comingCost } = state;
+
         if (modifier === 'train') {
           if ( index === 0 ) {
             state.comingCost = outside ? OUTSIDE_COST : DEFAULT_COST;
@@ -35713,8 +35715,7 @@ blocks.validation__path = {
               }]
           }
 
-          const { prevIsMcd } = state;
-          if ( prevIsMcd || isMcd ||  _line === MONO_LINE || _line === MCC_LINE) {
+          if ( prevIsMcd || isMcd || validation || sections[index - 1].validation) {
             validationNode.text(COME_TEXT).append(CARD_ELEMENT);
             return [...acc, {
               ...st,
@@ -35729,7 +35730,7 @@ blocks.validation__path = {
             }]
           }
           
-        } else if (modifier === 'afoot' || !modifier) {
+        } else if (modifier === 'afoot') {
           if ( index === 0 ) {
             state.comingCost = outside ? OUTSIDE_COST : DEFAULT_COST;
 
@@ -35746,10 +35747,9 @@ blocks.validation__path = {
               }]
           }
 
-          if (isMcd ) {
-            const { comingCost, prevIsMcd } = state;
+          if (isMcd) {
             const cost = outside ? comingCost === DEFAULT_COST ? 7 : 0 : 0;
-            const text = !modifier && !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
+            const text = !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
             validationNode.html(text).append(CARD_ELEMENT);
             return [...acc, {
                 ...st,
@@ -35763,14 +35763,30 @@ blocks.validation__path = {
               cost: 0,
               validationNode
             }]
-          } else {
+          }
+
+        } else if (!modifier) {
+          if (isMcd) {
+            const cost = outside ? comingCost === DEFAULT_COST ? 7 : 0 : 0;
+            const text = !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
+            validationNode.html(text).append(CARD_ELEMENT);
+            return [...acc, {
+                ...st,
+                cost,
+                validationNode
+            }]
+          } else if (validation && !sections[index - 1].validation) {
+            validationNode.text(COME_TEXT).append(CARD_ELEMENT);
             return [...acc, {
               ...st,
               cost: 0,
               validationNode
             }]
-          }
-
+          } return [...acc, {
+            ...st,
+            cost: 0,
+            validationNode
+          }]
         }
       }, []);
 
@@ -37401,9 +37417,19 @@ blocks.shemeInfo = {
  },
 
   checkDoubleEnterMetro: function(path, index) {
-    const mcdStationIndex = path.findIndex(({ isMcd }) => isMcd);
-    const notMcdStationIndex = _.findLastIndex( path, ({ isMcd }) => !isMcd);
-    if (mcdStationIndex < notMcdStationIndex) {
+
+    const mcdStationFirstIndex = path.findIndex(({ isMcd }) => isMcd);
+    const mcdStationLastIndex = _.findLastIndex( path, ({ isMcd }) => isMcd);
+    
+    const notMcdStationIndexLast = _.findLastIndex( path, ({ isMcd }) => !isMcd);
+    const notMcdStationIndexFirst = path.findIndex(({ isMcd }) => !isMcd);
+
+    // console.log(`${mcdStationFirstIndex} ${mcdStationLastIndex} ${notMcdStationIndexFirst} ${notMcdStationIndexLast}`)
+
+    if (mcdStationFirstIndex > notMcdStationIndexFirst &&
+        mcdStationLastIndex < notMcdStationIndexLast &&
+        mcdStationFirstIndex !== mcdStationLastIndex) {
+            console.log(12345);
       this.renderDefaultCost(path, index, true);
     } else {
       this.renderDefaultCost(path, index, false);
@@ -37471,6 +37497,7 @@ blocks.shemeInfo = {
       const fromId = from._station;
       const to = other.length ? other[other.length - 1]._station : fromId;
       const { toIds } = metroCost.find(st => st.fromId === fromId);
+      //console.log(toIds.find(({ id }) => id === to).cost)
       cost += toIds.find(({ id }) => id === to).cost;
     }
     if (mcd2Stations.length) {
@@ -37478,6 +37505,7 @@ blocks.shemeInfo = {
       const fromId = from._station;
       const to = other.length ? other[other.length - 1]._station : fromId;
       const { toIds } = metroCost.find(st => st.fromId === fromId);
+      //console.log(toIds.find(({ id }) => id === to).cost)
       cost += toIds.find(({ id }) => id === to).cost;
     }
 
