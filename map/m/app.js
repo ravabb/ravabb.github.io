@@ -35226,7 +35226,8 @@ var metroStationsConnections = [
                     station: station.name,
                     color: line.color,
                     outside: station.outside || false,
-                    isMcd: StationHelper.stationIsMcd(station.id) || false
+                    isMcd: StationHelper.stationIsMcd(station.id) || false,
+                    validation: StationHelper.stationIsMcd(station.id) || line.id === "line13" || line.id === "line14"
                 };
             })
 
@@ -36210,8 +36211,6 @@ blocks.validation__path = {
         return;
       }
 
-      console.log(sections);
-
       const state = {
         comingCost: null,
         prevIsMcd: false
@@ -36223,11 +36222,13 @@ blocks.validation__path = {
 
       const res = sections.reduce((acc, st, index) => {
 
-        const { modifier, _line, _station, station, isMcd, outside } = st;
+        const { modifier, _line, _station, station, isMcd, validation, outside } = st;
 
         if (index > 0) state.prevIsMcd = sections[index - 1].isMcd;
 
         const validationNode = $('<p>');
+
+        const { prevIsMcd, comingCost } = state;
 
         if (modifier === 'train') {
           if ( index === 0 ) {
@@ -36241,8 +36242,7 @@ blocks.validation__path = {
               }]
           }
 
-          const { prevIsMcd } = state;
-          if ( prevIsMcd || isMcd ||  _line === MONO_LINE || _line === MCC_LINE) {
+          if ( prevIsMcd || isMcd || validation || sections[index - 1].validation) {
             validationNode.text(COME_TEXT).append(CARD_ELEMENT);
             return [...acc, {
               ...st,
@@ -36257,7 +36257,7 @@ blocks.validation__path = {
             }]
           }
           
-        } else if (modifier === 'afoot' || !modifier) {
+        } else if (modifier === 'afoot') {
           if ( index === 0 ) {
             state.comingCost = outside ? OUTSIDE_COST : DEFAULT_COST;
 
@@ -36275,9 +36275,8 @@ blocks.validation__path = {
           }
 
           if (isMcd) {
-            const { comingCost, prevIsMcd } = state;
             const cost = outside ? comingCost === DEFAULT_COST ? 7 : 0 : 0;
-            const text = !modifier && !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
+            const text = !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
             validationNode.html(text).append(CARD_ELEMENT);
             return [...acc, {
                 ...st,
@@ -36291,7 +36290,34 @@ blocks.validation__path = {
               cost: 0,
               validationNode
             }]
-          } return [...acc, {
+          }
+
+        } else if (!modifier) {
+          if (isMcd) {
+            const cost = outside ? comingCost === DEFAULT_COST ? 7 : 0 : 0;
+            const text = !prevIsMcd  ? `${COME_TEXT} <br> ${EXIT_TEXT}` : EXIT_TEXT;
+            validationNode.html(text).append(CARD_ELEMENT);
+            return [...acc, {
+                ...st,
+                cost,
+                validationNode
+            }]
+          } else if ((validation && !sections[index - 1].validation) || prevIsMcd ) {
+            validationNode.text(COME_TEXT).append(CARD_ELEMENT);
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          } else if (sections[index - 1].validation && !validation) {
+            validationNode.text(COME_TEXT).append(CARD_ELEMENT);
+            return [...acc, {
+              ...st,
+              cost: 0,
+              validationNode
+            }]
+          }
+           return [...acc, {
             ...st,
             cost: 0,
             validationNode
@@ -36319,15 +36345,24 @@ blocks.shemeInfo = {
     mcd2: 'lineD2'
   },
  
-   checkDoubleEnterMetro: function(path, index) {
-     const mcdStationIndex = path.findIndex(({ isMcd }) => isMcd);
-     const notMcdStationIndex = _.findLastIndex( path, ({ isMcd }) => !isMcd);
-     if (mcdStationIndex < notMcdStationIndex) {
-       this.renderDefaultCost(path, index, true);
-     } else {
-       this.renderDefaultCost(path, index, false);
-     }
-   },
+  checkDoubleEnterMetro: function(path, index) {
+
+    const mcdStationFirstIndex = path.findIndex(({ isMcd }) => isMcd);
+    const mcdStationLastIndex = _.findLastIndex( path, ({ isMcd }) => isMcd);
+    
+    const notMcdStationIndexLast = _.findLastIndex( path, ({ isMcd }) => !isMcd);
+    const notMcdStationIndexFirst = path.findIndex(({ isMcd }) => !isMcd);
+
+    // console.log(`${mcdStationFirstIndex} ${mcdStationLastIndex} ${notMcdStationIndexFirst} ${notMcdStationIndexLast}`)
+
+    if (mcdStationFirstIndex > notMcdStationIndexFirst &&
+        mcdStationLastIndex < notMcdStationIndexLast &&
+        mcdStationFirstIndex !== mcdStationLastIndex) {
+      this.renderDefaultCost(path, index, true);
+    } else {
+      this.renderDefaultCost(path, index, false);
+    }
+  },
  
   
    renderDefaultCost: function(path, index, doubleCominMetro = false) {
