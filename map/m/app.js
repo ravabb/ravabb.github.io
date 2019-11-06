@@ -32651,7 +32651,7 @@ var metroLinesWithIds = [
                 "left": 867
             },
             {
-                "name": "Инновационный центр Сколково",
+                "name": "Сколково",
                 "id": "lineD1_26",
                 "outside": true,
                 "top": 1059,
