@@ -32228,7 +32228,7 @@ var metroLinesWithIds = [
     {
         "id": "line14",
         "name": "МЦК",
-        "isCircle": true,
+        "isMCC": true,
         "color": "ffcec6",
         "stations": [
             {
@@ -35544,7 +35544,10 @@ blocks.callout = {
                     var line = StationHelper.getLineByStationId(station.id);
                     return {
                         id: station.id,
-                        title: line.isCircle ? 'Кольцевая' : line.isMCD ? 'МЦД' : 'Радиальная',
+                        title: line.isCircle ? 'Кольцевая' 
+                        : line.isMCD ? 'МЦД' 
+                        : line.isMCC ? 'МЦК'
+                        : 'Радиальная',
                         color: line.color
                     };
                 });
@@ -36275,8 +36278,54 @@ blocks.validation__path = {
         prevIsMcd: false
       };
 
-
       this.cls.paths_wrapper[index].removeClass('empty');
+
+      if (sections.find(({ _station }) => _station === "lineD2_38") && 
+      sections.findIndex(({ _station }) => _station === "lineD2_38") === 0 && 
+      sections.find(({ _station }) => _station === "lineD2_7") &&
+      sections.find(({ _station }) => _station === "line3_3")
+      ) {
+        const res = sections.reduce((acc, st, index) => {
+          const { modifier, _line, _station, station, isMcd, validation, outside } = st;
+          const validationNode = $('<p>');
+
+          if (modifier === 'train') {
+            if ( index === 0 ) {
+              validationNode.text(COME_TEXT)
+                            .append(CARD_ELEMENT);
+              return [...acc, {
+                  ...st,
+                  cost: 45,
+                  validationNode
+                }]
+            }
+
+            validationNode.text(COME_TEXT).append(CARD_ELEMENT);
+            return [...acc, {
+              ...st,
+              cost: 38,
+              validationNode
+            }]
+          }
+
+          else if (modifier === 'afoot') {
+            if (isMcd) {
+              validationNode.text(EXIT_TEXT).append(CARD_ELEMENT);
+              return [...acc, {
+                  ...st,
+                  cost: 0,
+                  validationNode
+              }]
+            }
+          }
+          return [...acc, {
+            ...st,
+            cost: 0,
+            validationNode
+          }]
+        }, [])
+        return renderNode(res, `#val_path-0`);
+      }
 
 
       const res = sections.reduce((acc, st, index) => {
