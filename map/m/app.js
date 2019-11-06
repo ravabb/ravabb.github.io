@@ -32626,7 +32626,7 @@ var metroLinesWithIds = [
                 "left": 867
             },
             {
-                "name": "Кунцево",
+                "name": "Кунцевская",
                 "id": "lineD1_22",
                 "top": 1059,
                 "left": 867
@@ -32827,7 +32827,7 @@ var metroLinesWithIds = [
                 "left": 867
             },
             {
-                "name": "Люблино",
+                "name": "Кубанская",
                 "id": "lineD2_24",
                 "top": 1059,
                 "left": 867
@@ -35292,6 +35292,58 @@ var metroStationsConnections = [
         };
     }
 
+    const transformationPathToLineSegmenst = ({ nodes }, addConnectionTime) => {
+      const state = {
+        prevStation: null,
+        prevLine: null,
+        lengthAcc: 0
+      };
+
+      return nodes.reduce((acc, node, index) => {
+        const { prevLine, prevStation, lengthAcc } = state;
+        const { connectionDistances, id } = node;
+        const nextStation = nodes[index + 1] || null;
+        const nextStationLineId = nextStation && StationHelper.getLineByStationId(nextStation.id).id;
+
+        const lineId = StationHelper.getLineByStationId(id).id;
+        const length = nextStation ?
+          lineId === nextStationLineId ? 
+          connectionDistances[nextStation.id] :
+          Math.abs(addConnectionTime - connectionDistances[nextStation.id]) : 0;
+
+        if ( !prevLine ) {
+          state.prevLine = lineId;
+          return [
+            ...acc,
+            {
+              line: lineId,
+              length
+            }
+          ]
+        }
+
+        if ( prevLine === lineId ) {
+          const idx = acc.findIndex(({ line }) => line === lineId);
+          const oldAcc = acc[idx];
+          const update = {...oldAcc, length: oldAcc.length + length };
+          return [
+            ...acc.slice(0, idx),
+            update,
+            ...acc.slice(idx + 1)
+          ]
+        } else {
+          state.prevLine = lineId;
+          return [
+            ...acc,
+            {
+              line: lineId,
+              length
+            }
+          ]
+        }
+      }, [])
+    }
+
     /**
      * Ищет путь между станциями
      *
@@ -35335,9 +35387,16 @@ var metroStationsConnections = [
             }, 0);
 
             // Поправка на хак для приоритета по пересадкам
+            const timeOnLines = transformationPathToLineSegmenst(path, graphObject.options.connectionTime)
+                                .map(el => {
+                                  return {
+                                    ...el,
+                                    length: parseInt(el.length / 60)
+                                }});
             var duration = path.length - graphObject.options.connectionTime * changesCount;
             var scheme = _.extend(convertPathToScheme(path), {
-                duration: parseInt(duration / 60)
+                duration: parseInt(duration / 60),
+                timeOnLines
             });
 
             if (duration > 0) {
@@ -36345,7 +36404,7 @@ blocks.shemeInfo = {
     mcd2: 'lineD2'
   },
  
-  checkDoubleEnterMetro: function(path, index) {
+  checkDoubleEnterMetro: function(path, index, timeOnLines) {
 
     const mcdStationFirstIndex = path.findIndex(({ isMcd }) => isMcd);
     const mcdStationLastIndex = _.findLastIndex( path, ({ isMcd }) => isMcd);
@@ -36358,14 +36417,14 @@ blocks.shemeInfo = {
     if (mcdStationFirstIndex > notMcdStationIndexFirst &&
         mcdStationLastIndex < notMcdStationIndexLast &&
         mcdStationFirstIndex !== mcdStationLastIndex) {
-      this.renderDefaultCost(path, index, true);
+      this.renderDefaultCost(path, index, true, timeOnLines);
     } else {
-      this.renderDefaultCost(path, index, false);
+      this.renderDefaultCost(path, index, false, timeOnLines);
     }
   },
  
   
-   renderDefaultCost: function(path, index, doubleCominMetro = false) {
+   renderDefaultCost: function(path, index, doubleCominMetro = false, timeOnLines) {
 
     const hasOutsideStation = path.findIndex(({ outside }) => outside) > -1;
 
@@ -36373,9 +36432,13 @@ blocks.shemeInfo = {
 
     const costWithMetro = hasMetroStation ? 38 : 0;
 
+    const timeLeftCost = timeOnLines.length > 1 &&
+        timeOnLines.find(({ length }) => length >= 90) ?
+        38 : 0
+
     // const outsideCost = hasOutsideStation && hasMetroStation ? 7 : 0;
 
-    const troikaCost = hasOutsideStation ? 45 : 38;
+    const troikaCost = (hasOutsideStation ? 45 : 38) + timeLeftCost;
 
     const mcd1Stations = path.filter(({ _line }) => _line === this.lineIds.mcd1);
     const mcd2Stations = path.filter(({ _line }) => _line === this.lineIds.mcd2);
@@ -36416,10 +36479,10 @@ blocks.shemeInfo = {
   },
 
   renderCoast: function({ scheme }) {
-  scheme.forEach(({ changesCount, sections }, index) => {
+  scheme.forEach(({ changesCount, sections, timeOnLines }, index) => {
     if (this.checkMcdInPath(sections)) {
       const canMcdMiddle = changesCount >= 2;
-      canMcdMiddle ? this.checkDoubleEnterMetro(sections, index) : this.renderDefaultCost(sections, index);
+      canMcdMiddle ? this.checkDoubleEnterMetro(sections, index, timeOnLines) : this.renderDefaultCost(sections, index, false, timeOnLines);
     }
   })
   }
