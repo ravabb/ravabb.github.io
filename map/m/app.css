@@ -3443,7 +3443,9 @@ body._nav-active .header__nav {
     left: 0;
     overflow: hidden;
     cursor: -webkit-grab;
-    cursor: grab
+    cursor: grab;
+    width: 1600px;
+    height: 2000px;
 }
 
 .map__viewport._dragging {
@@ -3452,7 +3454,7 @@ body._nav-active .header__nav {
 }
 
 .map__viewport-in {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     margin: 0;
@@ -3466,7 +3468,9 @@ body._nav-active .header__nav {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0
+    left: 0;
+    width: 1600px;
+    height: 2000px;
 }
 
 .map__layer#map-background {

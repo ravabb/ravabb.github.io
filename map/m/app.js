@@ -35489,7 +35489,8 @@ blocks.callout = {
     init: function() {
         var that = this;
 
-        $(this.cls.callout).on('click', this.cls.from, function(e) {
+        $(this.cls.callout).on('click touchstart', this.cls.from, function(e) {
+          e.stopImmediatePropagation();
             var id = that.getCurrentlySelectedId();
             if (id) {
                 blocks.fromto.setFrom(id);
@@ -35497,7 +35498,8 @@ blocks.callout = {
             }
         });
 
-        $(this.cls.callout).on('click', this.cls.to, function(e) {
+        $(this.cls.callout).on('click touchstart', this.cls.to, function(e) {
+          e.stopImmediatePropagation();
             var id = that.getCurrentlySelectedId();
             if (id) {
                 blocks.fromto.setTo(id);
@@ -36001,29 +36003,42 @@ blocks.map = {
 
     init: function() {
         this.showMarkers();
-        panzoom(document.querySelector('.map__viewport-in'), {
-          onDoubleClick: function(e) {
-            e.preventDefault();
-            // `e` - is current double click event.
-            return false; // tells the library to not preventDefault, and not stop propagation
-        },
-        onTouch: function(e) {
-          // `e` - is current touch event.
+
+        this.elem.viewportIn.panzoom();
+
+        this.elem.viewportIn.parent().on('mousewheel.focal', e => {
           e.preventDefault();
-          // скрыть коллаут
-          blocks.callout.hide();
-          return false;
-        },
-        zoomSpeed: 0.1,
-        maxZoom: 2.8,
-        minZoom: 0.3,
-        zoomDoubleClickSpeed: 1,
-        contain: 'inside' })
-        .zoomAbs(
-          -400, // initial x position
-          25, // initial y position
-          0.5  // initial zoom 
-        );
+          var delta = e.delta || e.originalEvent.wheelDelta;
+          var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+          this.elem.viewportIn.panzoom('zoom', zoomOut, {
+            increment: 0.1,
+            focal: e
+          });
+        });
+        
+        // panzoom(document.querySelector('.map__viewport-in'), {
+        //   onDoubleClick: function(e) {
+        //     e.preventDefault();
+        //     // `e` - is current double click event.
+        //     return false; // tells the library to not preventDefault, and not stop propagation
+        // },
+        // onTouch: function(e) {
+        //   // `e` - is current touch event.
+        //   e.preventDefault();
+        //   // скрыть коллаут
+        //   blocks.callout.hide();
+        //   return false;
+        // },
+        // zoomSpeed: 0.1,
+        // maxZoom: 2.8,
+        // minZoom: 0.3,
+        // zoomDoubleClickSpeed: 1,
+        // contain: 'inside' })
+        // .zoomAbs(
+        //   -400, // initial x position
+        //   25, // initial y position
+        //   0.5  // initial zoom 
+        // );
         // this.getViewportSize();
         this.handlers();
     },
