@@ -29,8 +29,8 @@
     <title>Схема МЦД</title>
     <link rel="stylesheet" href="app.css">
     <script src="/js/jquery.js"></script>
-    <script src="/js/map.js"></script>
-    <script src='https://unpkg.com/panzoom@8.4.0/dist/panzoom.min.js'></script>
+    <!-- <script src="/js/map.js"></script> -->
+    <!-- <script src='https://unpkg.com/panzoom@8.4.0/dist/panzoom.min.js'></script> -->
 </head>
 <body class="_map">
 
@@ -46,9 +46,6 @@
                     <svg viewBox="0 0 1600 2000"></svg>
                 </div>
                 <div class="map__layer" id="map-markers">
-                    <svg viewBox="0 0 1600 2000">
-                        <use xlink:href="slice.svg#line0_19"></use>
-                    </svg>
                 </div>
             </div>
         </div>
@@ -115,6 +112,9 @@
 
     <div class="callout"></div>
     </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script> -->
+    <script src="panzoom.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.panzoom/3.2.3/jquery.panzoom.js"></script> -->
 <script src="app.js"></script>
 </body>
 </html>
