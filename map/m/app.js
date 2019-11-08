@@ -36004,13 +36004,18 @@ blocks.map = {
     init: function() {
         this.showMarkers();
 
-        this.elem.viewportIn.panzoom();
+        this.elem.viewportIn.panzoom({
+          duration: 0,
+          easing: false,
+          transition: false
+        });
 
         this.elem.viewportIn.parent().on('mousewheel.focal', e => {
           e.preventDefault();
           var delta = e.delta || e.originalEvent.wheelDelta;
           var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
           this.elem.viewportIn.panzoom('zoom', zoomOut, {
+            animate: false,
             increment: 0.1,
             focal: e
           });
@@ -36156,6 +36161,15 @@ blocks.map = {
                     if (!symbol) {
                         console.warn('Cannot find a symbol ' + station);
                     } else {
+                        // const textNode = symbol.querySelector('text');
+                        // const { textContent } = textNode;
+                        // const [x, y] = textNode.getAttribute('transform').match((/\d+/g));
+                        // symbol.removeChild(symbol.querySelector('text'));
+                        // const newText = document.createElement('text');
+                        // newText.textContent = textContent;
+                        // newText.setAttribute('x', x);
+                        // newText.setAttribute('y', y);
+                        // symbol.appendChild(newText);
                         out += '<g id="' + station.id + '">' +
                             symbol.innerHTML +
                         '</g>';
